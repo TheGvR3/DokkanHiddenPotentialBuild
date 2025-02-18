@@ -163,7 +163,7 @@ $(document).ready(function() {
             const card = $(`
                 <div class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 flex items-center">
                     <div class="relative mr-4">
-                        <img src="img/units/${unit.category}/${unit.type}/${unit.image}" 
+                        <img src="img/Units/${unit.category}/${unit.type}/${unit.image}" 
                             alt="${unit.name}" 
                             class="w-24 h-24 object-contain rounded-lg"
                         >
