@@ -177,7 +177,7 @@ $(document).ready(function() {
                                  class="w-50 h-50 absolute -bottom-4 -right-8"
                             >
                         ` : unit.eza ? `
-                            <img src="img/eza.webp" 
+                            <img src="img/EZA.webp" 
                                  alt="EZA" 
                                  class="w-5 h-5 absolute -bottom-0 -right-0 -translate-x-1"
                             >
