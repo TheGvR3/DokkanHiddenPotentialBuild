@@ -23,7 +23,6 @@ $(document).ready(function() {
      * @param {boolean} append - Se true, aggiunge i risultati invece di sostituirli
      */
     function loadUnits(search = '', category = '', type = '', append = false) {
-        // Evita richieste multiple mentre sta caricando
         if (isLoading) return;
         
         isLoading = true;
@@ -38,8 +37,27 @@ $(document).ready(function() {
         if (category) params.push(`category=eq.${category}`);
         if (type) params.push(`type=eq.${type}`);
         
+        // Aggiungi il filtro per EZA/SEZA
+        const ezaFilter = $('#eza-filter').val();
+        if (ezaFilter) {
+            switch(ezaFilter) {
+                case 'eza':
+                    params.push('eza=eq.true'); // Solo EZA
+                    break;
+                case 'seza':
+                    params.push('seza=eq.true'); // Solo SEZA
+                    break;
+                case 'both':
+                    params.push('or=(eza.eq.true,seza.eq.true)'); // Mostra tutti quelli con EZA o SEZA
+                    break;
+                case 'no':
+                    params.push('or=(and(eza.eq.false,seza.eq.false),and(eza.is.null,seza.is.null))'); // Né EZA né SEZA o campi null
+                    break;
+            }
+        }
+        
         // Modifica l'ordinamento per mostrare prima i più recenti
-        params.push('order=id.desc'); // Ordina per ID decrescente (dal più alto al più basso)
+        params.push('order=id.desc');
         
         // Calcolo offset per la paginazione
         const offset = currentPage * unitsPerPage;
@@ -151,8 +169,19 @@ $(document).ready(function() {
                         >
                         <img src="img/Type/${unit.category}/${unit.category[0]}${unit.type}_icon.webp" 
                              alt="${unit.category} ${unit.type}" 
-                             class="w-8 h-8 absolute -bottom-1 -right-0"
+                             class="w-8 h-8 absolute -top-0 -left-0"
                         >
+                        ${unit.seza ? `
+                            <img src="img/seza.webp" 
+                                 alt="SEZA" 
+                                 class="w-50 h-50 absolute -bottom-4 -right-8"
+                            >
+                        ` : unit.eza ? `
+                            <img src="img/eza.webp" 
+                                 alt="EZA" 
+                                 class="w-5 h-5 absolute -bottom-0 -right-0 -translate-x-1"
+                            >
+                        ` : ''}
                     </div>
                     <div class="flex-1">
                         <h3 class="font-bold text-lg mb-2">${unit.name}</h3>
@@ -242,6 +271,15 @@ $(document).ready(function() {
 
     // Event Listener per i filtri di categoria e tipo
     $('#category-filter, #type-filter').on('change', function() {
+        currentPage = 0;
+        const search = $('#search').val();
+        const category = $('#category-filter').val();
+        const type = $('#type-filter').val();
+        loadUnits(search, category, type, false);
+    });
+
+    // Aggiungi l'event listener per il nuovo filtro
+    $('#eza-filter').on('change', function() {
         currentPage = 0;
         const search = $('#search').val();
         const category = $('#category-filter').val();
