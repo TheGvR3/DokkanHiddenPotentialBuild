@@ -163,23 +163,23 @@ $(document).ready(function() {
             const card = $(`
                 <div class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 flex items-center">
                     <div class="relative mr-4">
-                        <img src="img/Units/${unit.image}" 
-                             alt="${unit.name}" 
-                             class="w-24 h-24 object-contain rounded-lg"
+                        <img src="img/Units/${unit.category}/${unit.type}/${unit.image}" 
+                            alt="${unit.name}" 
+                            class="w-24 h-24 object-contain rounded-lg"
                         >
                         <img src="img/Type/${unit.category}/${unit.category[0]}${unit.type}_icon.webp" 
-                             alt="${unit.category} ${unit.type}" 
-                             class="w-8 h-8 absolute -top-0 -left-0"
+                            alt="${unit.category} ${unit.type}" 
+                            class="w-8 h-8 absolute -top-0 -left-0"
                         >
                         ${unit.seza ? `
                             <img src="img/seza.webp" 
-                                 alt="SEZA" 
-                                 class="w-50 h-50 absolute -bottom-4 -right-8"
+                                alt="SEZA" 
+                                class="w-50 h-50 absolute -bottom-4 -right-8"
                             >
                         ` : unit.eza ? `
                             <img src="img/EZA.webp" 
-                                 alt="EZA" 
-                                 class="w-5 h-5 absolute -bottom-0 -right-0 -translate-x-1"
+                                alt="EZA" 
+                                class="w-5 h-5 absolute -bottom-0 -right-0 -translate-x-1"
                             >
                         ` : ''}
                     </div>

@@ -1,16 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Dokkan Battle Hidden Abilities Builds Database</title>
+    <title>Dokkan Battle Hidden Abilities Database - Build Guide and Hidden Potential</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Meta tag SEO -->
+    <meta name="description" content="Complete Hidden Abilities Database for Dokkan Battle. Search characters, filter by type and category, find the best Hidden Potential builds.">
+    <meta name="keywords" content="Dokkan Battle, Hidden Potential, Database, Build Guide, EZA, Super EZA, Dragon Ball Z, Critical, Additional, Dodge">
+    <meta name="author" content="Ivano Saracino">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Dokkan Battle Hidden Abilities Database">
+    <meta property="og:description" content="Find the best Hidden Potential builds for your Dokkan Battle characters">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://thegvr3.github.io/dokkan-database/">
+    <meta property="og:image" content="img/og-image.webp">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Dokkan Battle Hidden Abilities Database">
+    <meta name="twitter:description" content="Complete Hidden Abilities Database for Dokkan Battle">
+    <meta name="twitter:image" content="img/og-image.webp">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://thegvr3.github.io/dokkan-database/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    
+    <!-- Preconnect for external resources -->
+    <link rel="preconnect" href="https://cdn.tailwindcss.com">
+    <link rel="preconnect" href="https://code.jquery.com">
+    
     <script src="https://cdn.tailwindcss.com"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Dokkan Battle Hidden Abilities Database",
+      "description": "Complete Hidden Abilities Database for Dokkan Battle. Search characters, filter by type and category, find the best Hidden Potential builds.",
+      "applicationCategory": "Game Database",
+      "operatingSystem": "Any",
+      "author": {
+        "@type": "Person",
+        "name": "Ivano Saracino",
+        "url": "https://github.com/TheGvR3"
+      },
+      "inLanguage": "en",
+      "license": "https://thegvr3.github.io/dokkan-database/credits.html"
+    }
+    </script>
+    <meta name="theme-color" content="#1F2937">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="manifest.json">
+    <link rel="author" href="humans.txt">
 </head>
 <body class="bg-gray-100">
-    <div class="bg-gray-800 text-white text-sm py-2 text-center">
-        <p>DRAGON BALL Z: DOKKAN BATTLE e' un marchio registrato di BANDAI NAMCO Entertainment Inc. Tutti i diritti riservati.</p>
-        <p>Questo e' un fan site non ufficiale senza scopo di lucro. Tutti i contenuti appartengono ai rispettivi proprietari.</p>
-    </div>
 
     <div class="container mx-auto px-4 py-8 max-w-7xl">
         <h1 class="text-4xl font-bold text-center mb-8 text-gray-800">Dokkan Battle Builds</h1>
@@ -20,14 +70,14 @@
             <input 
                 type="text" 
                 id="search" 
-                placeholder="Cerca unità..." 
+                placeholder="Search units..." 
                 class="px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
             <select 
                 id="category-filter"
                 class="px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
-                <option value="">Tutte le categorie</option>
+                <option value="">All categories</option>
                 <option value="Super">Super</option>
                 <option value="Extreme">Extreme</option>
             </select>
@@ -35,7 +85,7 @@
                 id="type-filter"
                 class="px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
-                <option value="">Tutti i tipi</option>
+                <option value="">All types</option>
                 <option value="AGL">AGL</option>
                 <option value="TEQ">TEQ</option>
                 <option value="INT">INT</option>
@@ -46,7 +96,7 @@
                 id="eza-filter"
                 class="px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
-                <option value="">Tutti</option>
+                <option value="">All</option>
                 <option value="eza">EZA</option>
                 <option value="seza">Super EZA</option>
                 <option value="both">EZA + Super EZA</option>
@@ -56,46 +106,32 @@
                 id="search-button"
                 class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
-                Cerca
+                Search
             </button>
         </div>
 
         <!-- Controlli paginazione in alto -->
         <div class="mb-8 flex justify-center items-center gap-4 sm:gap-4">
             <div class="flex gap-1 sm:gap-2">
-                <button 
-                    id="first-page-top" 
-                    class="px-2 sm:px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 disabled:opacity-50 text-sm sm:text-base"
-                    disabled
-                >
-                    <span class="hidden sm:inline">Prima</span>
+                <button id="first-page-top" class="px-2 sm:px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 disabled:opacity-50 text-sm sm:text-base" disabled>
+                    <span class="hidden sm:inline">First</span>
                     <span class="sm:inline">«</span>
                 </button>
-                <button 
-                    id="prev-page-top" 
-                    class="px-3 sm:px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 disabled:opacity-50 text-sm sm:text-base w-16 sm:w-auto"
-                    disabled
-                >
-                    <span class="hidden sm:inline">Precedente</span>
+                <button id="prev-page-top" class="px-3 sm:px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 disabled:opacity-50 text-sm sm:text-base w-16 sm:w-auto" disabled>
+                    <span class="hidden sm:inline">Previous</span>
                     <span class="sm:hidden">‹</span>
                 </button>
             </div>
             <span id="page-info-top" class="text-gray-700 text-sm sm:text-base">
-                Pagina <span id="current-page-num-top">1</span> di <span id="total-pages-top">1</span>
+                Page <span id="current-page-num-top">1</span> of <span id="total-pages-top">1</span>
             </span>
             <div class="flex gap-1 sm:gap-2">
-                <button 
-                    id="next-page-top" 
-                    class="px-3 sm:px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 disabled:opacity-50 text-sm sm:text-base w-16 sm:w-auto"
-                >
-                    <span class="hidden sm:inline">Successiva</span>
+                <button id="next-page-top" class="px-3 sm:px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 disabled:opacity-50 text-sm sm:text-base w-16 sm:w-auto">
+                    <span class="hidden sm:inline">Next</span>
                     <span class="sm:hidden">›</span>
                 </button>
-                <button 
-                    id="last-page-top" 
-                    class="px-2 sm:px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 disabled:opacity-50 text-sm sm:text-base"
-                >
-                    <span class="hidden sm:inline">Ultima</span>
+                <button id="last-page-top" class="px-2 sm:px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 disabled:opacity-50 text-sm sm:text-base">
+                    <span class="hidden sm:inline">Last</span>
                     <span class="sm:inline">»</span>
                 </button>
             </div>
@@ -159,9 +195,13 @@
     <script src="script.js"></script>
     
     <footer class="bg-gray-800 text-white py-4 mt-8">
+        <div class="bg-gray-800 text-white text-sm py-2 text-center">
+            <p>DRAGON BALL Z: DOKKAN BATTLE is a registered trademark of BANDAI NAMCO Entertainment Inc. All rights reserved.</p>
+            <p>This is an unofficial non-profit fan site. All content belongs to their respective owners.</p>
+        </div>
         <div class="container mx-auto px-4 text-center">
             <a href="credits.html" class="text-blue-400 hover:text-blue-300 transition-colors duration-200">
-                Credits & Informazioni
+                Credits & Information
             </a>
         </div>
     </footer>

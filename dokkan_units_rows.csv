@@ -9,7 +9,7 @@ id,category,type,name,crit,add,esc,image,eza,seza,new
 8,Super,STR,The Decisive Moment Super Saiyan 3 Goku,11,15,0,The Decisive Moment Super Saiyan 3 Goku.webp,,,
 9,Super,TEQ,Pulse of the Crimson Divine Warriors Super Saiyan God Goku & Super Saiyan God Vegeta,20,15,0,Pulse of the Crimson Divine Warriors Super Saiyan God Goku & Super Saiyan God Vegeta.webp,,,
 10,Super,STR,Awakened Beast Gohan (Beast),11,15,0,Awakened Beast Gohan Beast.webp,,,
-11,Extreme,TEQ,Contradictions of Gods and Mortals Fusion Zamasu,15,15,0,Contradictions of Gods and Mortals Fusion Zamasu.webp,,,
+11,Extreme,TEQ,Contradictions of Gods and Mortals Fusion Zamasu,11,15,0,Contradictions of Gods and Mortals Fusion Zamasu.webp,,,
 12,Super,TEQ,Reunion in the Otherworld Goku (Angel) & Vegeta (Angel),11,15,0,Reunion in the Otherworld Goku Angel & Vegeta Angel.webp,,,
 13,Extreme,INT,Devil Awakened from the Sub-Zero Seal Legendary Super Saiyan Broly,6,15,0,Devil Awakened from the Sub-Zero Seal Legendary Super Saiyan Broly.webp,,,
 14,Super,AGL,Silver-Gleaming New Form Goku (Ultra Instinct),0,20,6,Silver-Gleaming New Form Goku Ultra Instinct.webp,true,,
@@ -93,7 +93,28 @@ id,category,type,name,crit,add,esc,image,eza,seza,new
 92,Super,PHY,Divine Fighter Born of Light Super Saiyan God Goku,15,11,0,Divine Fighter Born of Light Super Saiyan God Goku.webp,,,
 93,Extreme,AGL,Eradication for the Future Frieza (1st Form),6,20,0,Eradication for the Future Frieza (1st Form).webp,,,
 94,Super,INT,All-Out Decisive Fight Yamcha,6,15,0,All-Out Decisive Fight Yamcha.webp,,,
-196,Super,STR,Burning Azure Power of Pride Super Saiyan God SS Evolved Vegeta,20,15,0,Burning Azure Power of Pride Super Saiyan God SS Evolved Vegeta.webp,,,true
+95,Super,TEQ,Power Boosted Through Training Super Saiyan Trunks (Teen),11,15,0,Power Boosted Through Training Super Saiyan Trunks (Teen).webp,,,
+96,Super,AGL,Rampage of Sadness and Fury Kale (Berserk),15,11,0,Rampage of Sadness and Fury Kale (Berserk).webp,,,
+97,Extreme,STR,Galaxy-Rocking Wave Boujack,0,0,0,Galaxy-Rocking Wave Boujack.webp,true,,
+98,Extreme,STR,Conqueror of the Universe Cooler,11,15,0,Conqueror of the Universe Cooler.webp,true,,
+99,Super,PHY,Imperturbable Namekian Warrior Piccolo,6,20,0,Imperturbable Namekian Warrior Piccolo.webp,true,,
+100,Super,TEQ,Impetuous God Beerus,0,0,0,Impetuous God Beerus.webp,false,true,
+101,Extreme,INT,Demons from Outer Space Angila & Medamatcha,15,6,0,Demons from Outer Space Angila & Medamatcha.webp,,,
+102,Extreme,STR,Obsession with Youth Lord Slug,20,6,0,Obsession with Youth Lord Slug.webp,,,
+103,Super,STR,Strength Forged in a Year Piccolo & Gohan (Kid),11,15,0,Strength Forged in a Year Piccolo & Gohan (Kid).webp,,,
+104,Super,STR,Universe-Shaking Azure Power Super Saiyan God SS Goku (Universe Tree Power),11,15,0,Universe-Shaking Azure Power Super Saiyan God SS Goku (Universe Tree Power).webp,,,
+105,Super,PHY,Dark Intervention Warrior in Black (Super Saiyan) (Dark Dragon Ball Boost),6,20,0,Dark Intervention Warrior in Black (Super Saiyan) (Dark Dragon Ball Boost).webp,,,
+106,Extreme,INT,Former Supreme Kai of Time Aeos,15,6,0,Former Supreme Kai of Time Aeos.webp,,,
+107,Extreme,AGL,Arrival of the Dark King Fu (Youth) (Dogidogi Fully Absorbed),6,20,0,Arrival of the Dark King Fu (Youth) (Dogidogi Fully Absorbed).webp,,,
+108,Extreme,TEQ,King of Darkness Dark King Demigra (Power of Time Unleashed),11,15,0,King of Darkness Dark King Demigra (Power of Time Unleashed).webp,,,
+109,.webp
+110,.webp
+111,.webp
+112,.webp
+113,.webp
+
+
+196,Super,STR,Burning Azure Power of Pride Super Saiyan God SS Evolved Vegeta,11,15,0,Burning Azure Power of Pride Super Saiyan God SS Evolved Vegeta.webp,,,true
 197,Super,AGL,Battle to Free the Mind Super Saiyan 3 Goku (GT),20,0,6,Battle to Free the Mind Super Saiyan 3 Goku GT.webp,,,true
 198,Super,STR,Heroic Story Born from a Bluff Hercule,15,11,0,Heroic Story Born from a Bluff Hercule.webp,,,true
 199,Super,TEQ,Light Brought Back to the Present World Super Saiyan Goku,15,11,0,Light Brought Back to the Present World Super Saiyan Goku.webp,,,true

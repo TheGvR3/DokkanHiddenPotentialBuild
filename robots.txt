@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://thegvr3.github.io/dokkan-database/sitemap.xml 

@@ -1,0 +1,10 @@
+/* TEAM */
+Developer: Ivano Saracino
+GitHub: @TheGvR3
+Location: Italy
+
+/* SITE */
+Last update: 2024/03/20
+Standards: HTML5, CSS3
+Components: Tailwind CSS, jQuery, Supabase
+Software: VS Code 
