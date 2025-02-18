@@ -287,6 +287,21 @@ $(document).ready(function() {
         loadUnits(search, category, type, false);
     });
 
+    // Aggiungi questo con gli altri event listeners
+    $('#clear-filters').on('click', function() {
+        // Reset all filters
+        $('#search').val('');
+        $('#category-filter').val('');
+        $('#type-filter').val('');
+        $('#eza-filter').val('');
+        
+        // Reset page
+        currentPage = 0;
+        
+        // Reload units
+        loadUnits('', '', '', false);
+    });
+
     // Caricamento iniziale delle unità
     loadUnits();
 }); 
