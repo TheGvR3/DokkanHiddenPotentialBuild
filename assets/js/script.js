@@ -163,7 +163,7 @@ $(document).ready(function() {
             const card = $(`
                 <div class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 flex items-center">
                     <div class="relative mr-4">
-                        <img src="img/Units/${unit.category}/${unit.type}/${unit.image}" 
+                        <img src="img/units/${unit.category}/${unit.type}/${unit.image}" 
                             alt="${unit.name}" 
                             class="w-24 h-24 object-contain rounded-lg"
                         >
@@ -180,6 +180,11 @@ $(document).ready(function() {
                             <img src="img/EZA.webp" 
                                 alt="EZA" 
                                 class="w-5 h-5 absolute -bottom-0 -right-0 -translate-x-1"
+                            >
+                        ` : unit.new ? `
+                            <img src="img/new.webp" 
+                                alt="NEW" 
+                                class="w-12 h-12 absolute -bottom-3 -right-0 -translate-x-1"
                             >
                         ` : ''}
                     </div>
