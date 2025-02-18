@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dokkan Battle Hidden Abilities Builds Database</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <div class="bg-gray-800 text-white text-sm py-2 text-center">
+        <p>DRAGON BALL Z: DOKKAN BATTLE e' un marchio registrato di BANDAI NAMCO Entertainment Inc. Tutti i diritti riservati.</p>
+        <p>Questo e' un fan site non ufficiale senza scopo di lucro. Tutti i contenuti appartengono ai rispettivi proprietari.</p>
+    </div>
+
+    <div class="container mx-auto px-4 py-8 max-w-7xl">
+        <h1 class="text-4xl font-bold text-center mb-8 text-gray-800">Dokkan Battle Bluid</h1>
+        <h2 class="text-2xl font-bold text-center mb-8 text-gray-800">Search for Base Forms Characters</h2>
+        
+        <div class="mb-8 flex flex-wrap gap-4 justify-center">
+            <input 
+                type="text" 
+                id="search" 
+                placeholder="Cerca unità..." 
+                class="px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+            <select 
+                id="category-filter"
+                class="px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+                <option value="">Tutte le categorie</option>
+                <option value="Super">Super</option>
+                <option value="Extreme">Extreme</option>
+            </select>
+            <select 
+                id="type-filter"
+                class="px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+                <option value="">Tutti i tipi</option>
+                <option value="AGL">AGL</option>
+                <option value="TEQ">TEQ</option>
+                <option value="INT">INT</option>
+                <option value="STR">STR</option>
+                <option value="PHY">PHY</option>
+            </select>
+            <button 
+                id="search-button"
+                class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+                Cerca
+            </button>
+        </div>
+
+        <!-- Controlli paginazione in alto -->
+        <div class="mb-8 flex justify-center items-center gap-2 sm:gap-4">
+            <div class="flex gap-1 sm:gap-2">
+                <button 
+                    id="first-page-top" 
+                    class="px-2 sm:px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 disabled:opacity-50 text-sm sm:text-base"
+                    disabled
+                >
+                    <span class="hidden sm:inline">Prima</span>
+                    <span class="sm:inline">«</span>
+                </button>
+                <button 
+                    id="prev-page-top" 
+                    class="px-3 sm:px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 disabled:opacity-50 text-sm sm:text-base w-16 sm:w-auto"
+                    disabled
+                >
+                    <span class="hidden sm:inline">Precedente</span>
+                    <span class="sm:hidden">‹</span>
+                </button>
+            </div>
+            <span id="page-info-top" class="text-gray-700 text-sm sm:text-base">
+                Pagina <span id="current-page-num-top">1</span> di <span id="total-pages-top">1</span>
+            </span>
+            <div class="flex gap-1 sm:gap-2">
+                <button 
+                    id="next-page-top" 
+                    class="px-3 sm:px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 disabled:opacity-50 text-sm sm:text-base w-16 sm:w-auto"
+                >
+                    <span class="hidden sm:inline">Successiva</span>
+                    <span class="sm:hidden">›</span>
+                </button>
+                <button 
+                    id="last-page-top" 
+                    class="px-2 sm:px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 disabled:opacity-50 text-sm sm:text-base"
+                >
+                    <span class="hidden sm:inline">Ultima</span>
+                    <span class="sm:inline">»</span>
+                </button>
+            </div>
+        </div>
+
+        <div id="units-grid" class="grid grid-cols-1 gap-4">
+        </div>
+
+        <!-- Controlli paginazione in basso  -->
+        <div class="mt-8 flex justify-center items-center gap-2 sm:gap-4">
+            <div class="flex gap-1 sm:gap-2">
+                <button 
+                    id="first-page" 
+                    class="px-2 sm:px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 disabled:opacity-50 text-sm sm:text-base"
+                    disabled
+                >
+                    <span class="hidden sm:inline">Prima</span>
+                    <span class="sm:inline">«</span>
+                </button>
+                <button 
+                    id="prev-page" 
+                    class="px-3 sm:px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 disabled:opacity-50 text-sm sm:text-base w-16 sm:w-auto"
+                    disabled
+                >
+                    <span class="hidden sm:inline">Precedente</span>
+                    <span class="sm:hidden">‹</span>
+                </button>
+            </div>
+            <span id="page-info" class="text-gray-700 text-sm sm:text-base">
+                Pagina <span id="current-page-num">1</span> di <span id="total-pages">1</span>
+            </span>
+            <div class="flex gap-1 sm:gap-2">
+                <button 
+                    id="next-page" 
+                    class="px-3 sm:px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 disabled:opacity-50 text-sm sm:text-base w-16 sm:w-auto"
+                >
+                    <span class="hidden sm:inline">Successiva</span>
+                    <span class="sm:hidden">›</span>
+                </button>
+                <button 
+                    id="last-page" 
+                    class="px-2 sm:px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 disabled:opacity-50 text-sm sm:text-base"
+                >
+                    <span class="hidden sm:inline">Ultima</span>
+                    <span class="sm:inline">»</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Verifica che config.js sia caricato
+        window.configLoaded = false;
+    </script>
+    <script>
+        // Carica la configurazione appropriata basata sull'ambiente
+        const isProduction = window.location.hostname.includes('github.io');
+        const configFile = isProduction ? 'config.prod.js' : 'config.dev.js';
+        document.write(`<script src="${configFile}" onload="window.configLoaded = true"><\/script>`);
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 

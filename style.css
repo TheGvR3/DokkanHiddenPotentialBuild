@@ -1,0 +1,42 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.search-box {
+    margin-bottom: 20px;
+}
+
+#search {
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+select {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+#units-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.unit-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.unit-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.unit-info {
+    margin-top: 10px;
+} 
