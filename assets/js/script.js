@@ -190,20 +190,26 @@ $(document).ready(function() {
                     </div>
                     <div class="flex-1">
                         <h3 class="font-bold text-lg mb-2">${unit.name}</h3>
-                        <div class="flex gap-4">
-                            <div class="bg-gray-50 p-1.5 rounded-lg flex items-center gap-2 hover:bg-gray-100 transition-colors duration-200">
-                                <img src="img/Skill/Pot_skill_critical.webp" alt="Crit" class="w-8 h-8">
-                                <span class="font-medium">${unit.crit}</span>
+                        ${unit.crit === 0 && unit.add === 0 && unit.esc === 0 ? `
+                            <div class="text-red-600 font-bold text-lg">
+                                Wait for EZA
                             </div>
-                            <div class="bg-gray-50 p-1.5 rounded-lg flex items-center gap-2 hover:bg-gray-100 transition-colors duration-200">
-                                <img src="img/Skill/Pot_skill_additional.webp" alt="Add" class="w-8 h-8">
-                                <span class="font-medium">${unit.add}</span>
+                        ` : `
+                            <div class="flex gap-4">
+                                <div class="bg-gray-50 p-1.5 rounded-lg flex items-center gap-2 hover:bg-gray-100 transition-colors duration-200">
+                                    <img src="img/Skill/Pot_skill_critical.webp" alt="Crit" class="w-8 h-8">
+                                    <span class="font-medium">${unit.crit}</span>
+                                </div>
+                                <div class="bg-gray-50 p-1.5 rounded-lg flex items-center gap-2 hover:bg-gray-100 transition-colors duration-200">
+                                    <img src="img/Skill/Pot_skill_additional.webp" alt="Add" class="w-8 h-8">
+                                    <span class="font-medium">${unit.add}</span>
+                                </div>
+                                <div class="bg-gray-50 p-1.5 rounded-lg flex items-center gap-2 hover:bg-gray-100 transition-colors duration-200">
+                                    <img src="img/Skill/Pot_skill_dodge.webp" alt="Escape" class="w-8 h-8">
+                                    <span class="font-medium">${unit.esc}</span>
+                                </div>
                             </div>
-                            <div class="bg-gray-50 p-1.5 rounded-lg flex items-center gap-2 hover:bg-gray-100 transition-colors duration-200">
-                                <img src="img/Skill/Pot_skill_dodge.webp" alt="Escape" class="w-8 h-8">
-                                <span class="font-medium">${unit.esc}</span>
-                            </div>
-                        </div>
+                        `}
                     </div>
                 </div>
             `);
