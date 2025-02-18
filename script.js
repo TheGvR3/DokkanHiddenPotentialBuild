@@ -1,26 +1,36 @@
 $(document).ready(function() {
-    // Verifica che le variabili ENV siano disponibili
+    // Verifica il caricamento corretto del file di configurazione
     if (!window.configLoaded || !window.ENV) {
         console.error('Errore: config.js non caricato correttamente');
         return;
     }
     
-    // Usa le variabili dall'oggetto ENV
+    // Inizializzazione delle variabili di configurazione Supabase
     const SUPABASE_URL = window.ENV.SUPABASE_URL;
     const SUPABASE_KEY = window.ENV.SUPABASE_KEY;
     
-    let currentPage = 0;
-    const unitsPerPage = 20;
-    let isLoading = false;
-    let totalUnits = 0;
+    // Variabili per la gestione della paginazione
+    let currentPage = 0;              // Pagina corrente (0-based)
+    const unitsPerPage = 20;          // Numero di unità per pagina
+    let isLoading = false;            // Flag per evitare richieste multiple
+    let totalUnits = 0;               // Totale delle unità nel database
 
+    /**
+     * Carica le unità dal database con i filtri specificati
+     * @param {string} search - Testo di ricerca per il nome
+     * @param {string} category - Filtro per categoria (Super/Extreme)
+     * @param {string} type - Filtro per tipo (AGL/TEQ/INT/STR/PHY)
+     * @param {boolean} append - Se true, aggiunge i risultati invece di sostituirli
+     */
     function loadUnits(search = '', category = '', type = '', append = false) {
+        // Evita richieste multiple mentre sta caricando
         if (isLoading) return;
         
         isLoading = true;
         let url = `${SUPABASE_URL}/rest/v1/dokkan_units`;
         const params = [];
         
+        // Costruzione dei parametri di ricerca
         if (search) {
             params.push(`name=ilike.*${search}*`);
         }
@@ -28,16 +38,22 @@ $(document).ready(function() {
         if (category) params.push(`category=eq.${category}`);
         if (type) params.push(`type=eq.${type}`);
         
+        // Modifica l'ordinamento per mostrare prima i più recenti
+        params.push('order=id.desc'); // Ordina per ID decrescente (dal più alto al più basso)
+        
+        // Calcolo offset per la paginazione
         const offset = currentPage * unitsPerPage;
         const limit = unitsPerPage;
         
         params.push(`offset=${offset}`);
         params.push(`limit=${limit}`);
 
+        // Aggiunge i parametri all'URL
         if (params.length > 0) {
             url += '?' + params.join('&');
         }
 
+        // Chiamata AJAX a Supabase
         $.ajax({
             url: url,
             method: 'GET',
@@ -48,6 +64,7 @@ $(document).ready(function() {
                 'Prefer': 'count=exact'
             },
             success: function(response, status, xhr) {
+                // Estrae il numero totale di risultati dall'header
                 const range = xhr.getResponseHeader('Content-Range');
                 if (range) {
                     const [_, total] = range.split('/');
@@ -67,29 +84,37 @@ $(document).ready(function() {
         });
     }
 
+    /**
+     * Aggiorna i controlli di paginazione in base al numero totale di unità
+     */
     function updatePaginationControls() {
         const totalPages = Math.ceil(totalUnits / unitsPerPage);
         
-        // Aggiorna entrambi i contatori di pagina
+        // Aggiorna i contatori di pagina in alto e in basso
         $('#current-page-num, #current-page-num-top').text(currentPage + 1);
         $('#total-pages, #total-pages-top').text(totalPages);
         
-        // Aggiorna lo stato di tutti i pulsanti di paginazione
+        // Gestisce lo stato dei pulsanti di navigazione
         const isFirstPage = currentPage === 0;
         const isLastPage = (currentPage + 1) >= totalPages;
         
+        // Disabilita/abilita i pulsanti appropriati
         $('#first-page, #first-page-top').prop('disabled', isFirstPage);
         $('#prev-page, #prev-page-top').prop('disabled', isFirstPage);
         $('#next-page, #next-page-top').prop('disabled', isLastPage);
         $('#last-page, #last-page-top').prop('disabled', isLastPage);
     }
 
+    /**
+     * Visualizza le unità nella griglia
+     * @param {Array} units - Array di unità da visualizzare
+     */
     function displayUnits(units) {
         const grid = $('#units-grid');
         grid.empty();
         
+        // Mostra messaggio 404 se non ci sono risultati
         if (!units || units.length === 0) {
-            // Aggiungi un messaggio 404 quando non ci sono risultati
             const notFoundMessage = $(`
                 <div class="text-center py-8">
                     <h3 class="text-2xl font-bold text-gray-800 mb-2">404 Not Found</h3>
@@ -100,7 +125,9 @@ $(document).ready(function() {
             return;
         }
         
+        // Crea e aggiunge le card per ogni unità
         units.forEach(unit => {
+            // Definizione dei colori per tipo e categoria
             const typeColors = {
                 'AGL': 'bg-blue-100 text-blue-800',
                 'TEQ': 'bg-green-100 text-green-800',
@@ -114,27 +141,33 @@ $(document).ready(function() {
                 'Extreme': 'bg-gray-100 text-gray-800'
             };
 
+            // Creazione della card con Tailwind CSS
             const card = $(`
-                <div class="bg-white p-4 rounded-lg shadow flex items-center">
-                    <img src="img/${unit.image}" alt="${unit.name}" class="w-24 h-24 object-contain rounded-lg mr-4">
+                <div class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 flex items-center">
+                    <div class="relative mr-4">
+                        <img src="img/Units/${unit.image}" 
+                             alt="${unit.name}" 
+                             class="w-24 h-24 object-contain rounded-lg"
+                        >
+                        <img src="img/Type/${unit.category}/${unit.category[0]}${unit.type}_icon.webp" 
+                             alt="${unit.category} ${unit.type}" 
+                             class="w-8 h-8 absolute -bottom-1 -right-0"
+                        >
+                    </div>
                     <div class="flex-1">
-                        <h3 class="font-bold text-lg">${unit.name}</h3>
-                        <div class="flex gap-2 mt-2">
-                            <span class="px-2 py-1 rounded ${unit.category === 'Super' ? 'bg-orange-100 text-orange-800' : 'bg-purple-100 text-purple-800'}">${unit.category}</span>
-                            <span class="px-2 py-1 rounded bg-gray-100 text-gray-800">${unit.type}</span>
-                        </div>
-                        <div class="flex gap-4 mt-2">
-                            <div class="bg-gray-50 p-1 rounded flex items-center gap-1">
-                                <img src="img/Pot_skill_critical.webp" alt="Crit" class="w-6 h-6">
-                                ${unit.crit}
+                        <h3 class="font-bold text-lg mb-2">${unit.name}</h3>
+                        <div class="flex gap-4">
+                            <div class="bg-gray-50 p-1.5 rounded-lg flex items-center gap-2 hover:bg-gray-100 transition-colors duration-200">
+                                <img src="img/Skill/Pot_skill_critical.webp" alt="Crit" class="w-8 h-8">
+                                <span class="font-medium">${unit.crit}</span>
                             </div>
-                            <div class="bg-gray-50 p-1 rounded flex items-center gap-1">
-                                <img src="img/Pot_skill_additional.webp" alt="Add" class="w-6 h-6">
-                                ${unit.add}
+                            <div class="bg-gray-50 p-1.5 rounded-lg flex items-center gap-2 hover:bg-gray-100 transition-colors duration-200">
+                                <img src="img/Skill/Pot_skill_additional.webp" alt="Add" class="w-8 h-8">
+                                <span class="font-medium">${unit.add}</span>
                             </div>
-                            <div class="bg-gray-50 p-1 rounded flex items-center gap-1">
-                                <img src="img/Pot_skill_dodge.webp" alt="Escape" class="w-6 h-6">
-                                ${unit.esc}
+                            <div class="bg-gray-50 p-1.5 rounded-lg flex items-center gap-2 hover:bg-gray-100 transition-colors duration-200">
+                                <img src="img/Skill/Pot_skill_dodge.webp" alt="Escape" class="w-8 h-8">
+                                <span class="font-medium">${unit.esc}</span>
                             </div>
                         </div>
                     </div>
@@ -144,7 +177,7 @@ $(document).ready(function() {
         });
     }
 
-    // Aggiungi gli eventi per i pulsanti di paginazione (per entrambi i set)
+    // Event Listeners per la paginazione
     $('#first-page, #first-page-top').on('click', function() {
         if (currentPage !== 0) {
             currentPage = 0;
@@ -187,7 +220,7 @@ $(document).ready(function() {
         }
     });
 
-    // Modifica l'evento per il pulsante di ricerca
+    // Event Listeners per la ricerca
     $('#search-button').on('click', function() {
         currentPage = 0;
         const search = $('#search').val().trim(); // Rimuove spazi extra
@@ -196,7 +229,7 @@ $(document).ready(function() {
         loadUnits(search, category, type, false);
     });
 
-    // Modifica anche l'evento keypress per la ricerca con Enter
+    // Gestione della ricerca con il tasto Enter
     $('#search').on('keypress', function(e) {
         if (e.which === 13) {  // 13 è il codice del tasto Enter
             currentPage = 0;
@@ -207,6 +240,7 @@ $(document).ready(function() {
         }
     });
 
+    // Event Listener per i filtri di categoria e tipo
     $('#category-filter, #type-filter').on('change', function() {
         currentPage = 0;
         const search = $('#search').val();
@@ -215,6 +249,6 @@ $(document).ready(function() {
         loadUnits(search, category, type, false);
     });
 
-    // Carica le unità all'avvio della pagina
+    // Caricamento iniziale delle unità
     loadUnits();
 }); 
