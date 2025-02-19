@@ -20,7 +20,7 @@ id,category,type,name,crit,add,esc,image,eza,seza,new
 19,Super,STR,A Battle Without Prospects for Tomorrow Super Saiyan Gohan (Future),11,15,0,A Battle Without Prospects for Tomorrow Super Saiyan Gohan Future.webp,,,
 20,Super,AGL,World Beyond the Clouds Goku,6,20,0,World Beyond the Clouds Goku.webp,,,
 21,Super,TEQ,True Anger and Awakening Super Saiyan Goku,11,15,0,True Anger and Awakening Super Saiyan Goku.webp,,,
-22,Super,STR,Dangerous 3x Kaioken Goku (Kaioken),0,0,0,Dangerous 3x Kaioken Goku Kaioken.webp,,,
+22,Super,STR,Dangerous 3x Kaioken Goku (Kaioken),0,0,0,Dangerous 3x Kaioken Goku Kaioken.webp,true,,
 23,Extreme,INT,Terrifying Ambition Vegeta,15,6,0,Terrifying Ambition Vegeta.webp,,,
 24,Super,INT,Day of Destiny Super Saiyan Gohan (Youth),0,0,0,Day of Destiny Super Saiyan Gohan Youth.webp,true,,
 25,Super,PHY,Impulse of the Fierce Warrior Race Super Saiyan 4 Goku & Super Saiyan 4 Vegeta,6,20,0,Impulse of the Fierce Warrior Race Super Saiyan 4 Goku & Super Saiyan 4 Vegeta.webp,,,
@@ -107,23 +107,50 @@ id,category,type,name,crit,add,esc,image,eza,seza,new
 106,Extreme,INT,Former Supreme Kai of Time Aeos,15,6,0,Former Supreme Kai of Time Aeos.webp,,,
 107,Extreme,AGL,Arrival of the Dark King Fu (Youth) (Dogidogi Fully Absorbed),6,20,0,Arrival of the Dark King Fu (Youth) (Dogidogi Fully Absorbed).webp,,,
 108,Extreme,TEQ,King of Darkness Dark King Demigra (Power of Time Unleashed),11,15,0,King of Darkness Dark King Demigra (Power of Time Unleashed).webp,,,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+109,Super,STR,Super Power Assembled Super Saiyan Goku,20,6,0,Super Power Assembled Super Saiyan Goku.webp,,,
+110,Extreme,STR,New Red Ribbon Army's Ultimate Weapon Cell Max,11,15,0,New Red Ribbon Army's Ultimate Weapon Cell Max.webp,,,
+111,Extreme,AGL,Concentrated Minus Energy Omega Shenron,15,11,0,Concentrated Minus Energy Omega Shenron.webp,,,
+112,Extreme,TEQ,Terrifying Growth Baby,11,15,0,Terrifying Growth Baby.webp,,,
+113,Super,STR,Those Confronting the Darkness Mai (Future),6,15,0,Those Confronting the Darkness Mai (Future).webp,,,
+114,Extreme,PHY,Doubts about Mortals and Gods Zamasu,6,20,0,Doubts about Mortals and Gods Zamasu.webp,,,
+115,Super,INT,Fighting Park Ranger Android #17,6,15,0,Fighting Park Ranger Android 17.webp,,,
+116,Extreme,PHY,Survival on a Razor Edge Golden Frieza (Angel),6,20,0,Survival on a Razor Edge Golden Frieza (Angel).webp,,,
+117,Super,PHY,Intimidating Aura That Tolerates No Evil Toppo,6,20,0,Intimidating Aura That Tolerates No Evil Toppo.webp,,,
+118,Super,INT,Vow to Prove Victorious Super Saiyan 4 Goku,6,15,0,Vow to Prove Victorious Super Saiyan 4 Goku.webp,,,
+119,Super,PHY,Saiyans Vying with the Strong Super Saiyan God SS Goku & Super Saiyan God SS Vegeta,6,20,0,Saiyans Vying with the Strong Super Saiyan God SS Goku & Super Saiyan God SS Vegeta.webp,true,,
+120,Super,TEQ,Legendary Z-Sword Gohan (Teen),11,15,0,Legendary Z-Sword Gohan (Teen).webp,true,,
+121,Super,INT,Confronting Fate Gohan (Future),6,15,0,Confronting Fate Gohan (Future).webp,true,,
+122,Super,INT,Resonant Breathing Androids #17 & #18,6,15,0,Resonant Breathing Androids 17 & 18.webp,,,
+123,Super,AGL,Warrior Born from Light Super Saiyan Gogeta,6,20,0,Warrior Born from Light Super Saiyan Gogeta.webp,true,,
+124,Extreme,PHY,Wrathful Saiyan Super Saiyan Broly,15,11,0,Wrathful Saiyan Super Saiyan Broly.webp,true,,
+125,Super,TEQ,Policeman of Universe 3 Catopesra,11,15,0,Policeman of Universe 3 Catopesra.webp,,,
+126,Super,TEQ,Adventure at Natade Village Videl,11,15,0,Adventure at Natade Village Videl.webp,,,
+127,Extreme,STR,Most Malevolent Transformation Cooler (Final Form),20,6,0,Most Malevolent Transformation Cooler (Final Form).webp,,,
+128,Super,STR,Invincible Legend of Universe 11 Jiren,11,15,0,Invincible Legend of Universe 11 Jiren.webp,true,,
+129,Super,PHY,Innocent Pair Super Saiyan Trunks (Kid) & Super Saiyan Goten (Kid),0,0,0,Innocent Pair Super Saiyan Trunks (Kid) & Super Saiyan Goten (Kid).webp,true,,
+130,Extreme,STR,The Roar of Death Legendary Super Saiyan Broly,0,0,0,The Roar of Death Legendary Super Saiyan Broly.webp,true,,
+131,Extreme,TEQ,Awakened Demonic Warrior Super Saiyan Broly,20,6,0,Awakened Demonic Warrior Super Saiyan Broly.webp,,,
+132,Super,TEQ,Quiet Grit Goku,20,6,0,Quiet Grit Goku.webp,true,,
+133,Super,STR,Saiyan's True Calling Bardock,11,15,0,Saiyan's True Calling Bardock.webp,true,,
+134,Super,INT,Three Great Super Saiyans Assemble Super Saiyan Goku & Super Saiyan Vegeta & Super Saiyan Trunks (Teen),6,15,0,Three Great Super Saiyans Assemble Super Saiyan Goku & Super Saiyan Vegeta & Super Saiyan Trunks (Teen).webp,,,
+135,Extreme,PHY,Survival on a Harsh Planet Broly,15,11,0,Survival on a Harsh Planet Broly.webp,true,,
+136,Extreme,QGL,Decadent Saiyans Turles (Giant Ape),6,20,0,Decadent Saiyans Turles (Giant Ape).webp,true,,
+137,Extreme,STR,Shadow of Aggression Turles,11,15,0,Shadow of Aggression Turles.webp,,,
+138,Extreme,INT,Vengeful Survivor Paragus,6,15,0,Vengeful Survivor Paragus.webp,true,,
+139,Super,AGL,Absolute Realm of God Super Saiyan God Goku,6,20,0,Absolute Realm of God Super Saiyan God Goku.webp,true,,
+140,Super,PHY,Assistance from Earth Piccolo,6,20,0,Assistance from Earth Piccolo.webp,,,
+141,Super,AGL,Super Saiyan Duo Super Saiyan Goku & Super Saiyan Vegeta,6,20,0,Super Saiyan Duo Super Saiyan Goku & Super Saiyan Vegeta.webp,,,
+142,Extreme,INT,Uncontrollable Power Super Saiyan Broly,6,15,0,Uncontrollable Power Super Saiyan Broly.webp,true,,
+143,Super,AGL,Stunning Metamorphosis Super Saiyan 3 Goku,6,20,0,Stunning Metamorphosis Super Saiyan 3 Goku.webp,false,true,
+144,Super,STR,Birth of a New Android Gamma 1,11,15,0,Birth of a New Android Gamma 1.webp,,,
+145,Super,AGL,Attack of a New Android Gamma 2,6,20,0,Attack of a New Android Gamma 2.webp,,,
+146,Super,TEQ,Awakening That Causes Tumult Goku (Ultra Instinct -Sign-),11,15,0,Awakening That Causes Tumult Goku (Ultra Instinct -Sign-).webp,,,
+147,Super,STR,Pride Trooper's Blitz Captain Dyspo,11,15,0,Pride Trooper's Blitz Captain Dyspo.webp,,,
+148,Extreme,PHY,Power Acquired Through Time-Traveling Goku Black (Super Saiyan Rosé),15,11,0,Power Acquired Through Time-Traveling Goku Black (Super Saiyan Rosé).webp,,,
+149,Super,INT,Proud Saiyan Lineage Super Saiyan God SS Vegeta & Super Saiyan Trunks (Future),6,15,0,Proud Saiyan Lineage Super Saiyan God SS Vegeta & Super Saiyan Trunks (Future).webp,,,
+150,Extreme,PHY,Power and Knowledge Obtained Majin Buu (Gotenks),15,11,0,Power and Knowledge Obtained Majin Buu (Gotenks).webp,true,,
+151,Super,STR,Power Raised to the Maximum Super Saiyan God SS Goku (Kaioken),20,6,0,Power Raised to the Maximum Super Saiyan God SS Goku (Kaioken).webp,true,,
+152,Super,TEQ,Sons of a Great Father Gohan (Teen) & Goten (Kid),20,6,0,Sons of a Great Father Gohan (Teen) & Goten (Kid).webp,true,,
 196,Super,STR,Burning Azure Power of Pride Super Saiyan God SS Evolved Vegeta,11,15,0,Burning Azure Power of Pride Super Saiyan God SS Evolved Vegeta.webp,,,true
 197,Super,AGL,Battle to Free the Mind Super Saiyan 3 Goku (GT),20,0,6,Battle to Free the Mind Super Saiyan 3 Goku GT.webp,,,true
 198,Super,STR,Heroic Story Born from a Bluff Hercule,15,11,0,Heroic Story Born from a Bluff Hercule.webp,,,true
