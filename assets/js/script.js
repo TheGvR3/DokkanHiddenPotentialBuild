@@ -166,11 +166,11 @@ $(document).ready(function() {
                             ` : unit.eza ? `
                                 <div class="sm:hidden">
                                     <!-- Versione mobile -->
-                                    <img src="img/eza.webp" alt="EZA" class="w-5 h-5 absolute bottom-1 right-2">
+                                    <img src="img/EZA.webp" alt="EZA" class="w-5 h-5 absolute bottom-1 right-2">
                                 </div>
                                 <div class="hidden sm:block">
                                     <!-- Versione desktop -->
-                                    <img src="img/eza.webp" alt="EZA" class="w-7 h-7 absolute bottom-1 right-0 -translate-x-3">
+                                    <img src="img/EZA.webp" alt="EZA" class="w-7 h-7 absolute bottom-1 right-0 -translate-x-3">
                                 </div>
                             ` : unit.new ? `
                                 <div class="sm:hidden">
@@ -199,7 +199,7 @@ $(document).ready(function() {
                             ${unit.seza ? `
                                 <img src="img/seza.webp" alt="SEZA" class="w-20 h-10 absolute -bottom-2 -right-6">
                             ` : unit.eza ? `
-                                <img src="img/eza.webp" alt="EZA" class="w-5 h-5 absolute -bottom-0 -right-0 -translate-x-1 -translate-y-1">
+                                <img src="img/EZA.webp" alt="EZA" class="w-5 h-5 absolute -bottom-0 -right-0 -translate-x-1 -translate-y-1">
                             ` : unit.new ? `
                                 <img src="img/new.webp" alt="NEW" class="w-10 h-10 absolute -bottom-2 -right-0 -translate-x-1">
                             ` : ''}
