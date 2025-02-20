@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
     if (!window.configLoaded || !window.ENV) {
         console.error('Error: config.js not loaded correctly');
         return;
@@ -25,7 +25,7 @@ $(document).ready(function() {
                 'apikey': SUPABASE_KEY,
                 'Authorization': `Bearer ${SUPABASE_KEY}`
             },
-            success: function(response) {
+            success: function (response) {
                 if (response && response.length > 0) {
                     const character = response[0];
                     displayCharacterDetails(character);
@@ -33,7 +33,7 @@ $(document).ready(function() {
                     $('#character-details').html('<p class="text-red-600">Character not found</p>');
                 }
             },
-            error: function(xhr, status, error) {
+            error: function (xhr, status, error) {
                 console.error('Error in request:', error);
                 $('#character-details').html('<p class="text-red-600">Error loading character details</p>');
             }
@@ -49,11 +49,6 @@ $(document).ready(function() {
                          alt="${character.name}"
                          class="w-48 h-48 md:w-64 md:h-64 object-contain rounded-lg shadow-lg"
                     >
-                    ${character.seza ? `
-                        <img src="../img/seza.webp" alt="SEZA" class="w-20 h-10 absolute -bottom-2 -right-6">
-                    ` : character.eza ? `
-                        <img src="../img/EZA.webp" alt="EZA" class="w-5 h-5 absolute -bottom-0 -right-0 -translate-x-1">
-                    ` : ''}
                 </div>
 
                 <!-- Character info -->
@@ -61,7 +56,7 @@ $(document).ready(function() {
                     <h1 class="text-2xl md:text-3xl font-bold mb-4 text-center lg:text-left">${character.name}</h1>
                     
                     <!-- Info boxes in grid -->
-                    <div class="grid grid-cols-2 gap-3 mb-6">
+                    <div class="grid grid-cols-3 gap-3 mb-6">
                         <div class="bg-gray-50 rounded-lg p-3 flex flex-col items-center text-center">
                             <h2 class="font-semibold text-sm mb-1">Category</h2>
                             <p class="text-gray-800">${character.category}</p>
@@ -69,6 +64,14 @@ $(document).ready(function() {
                         <div class="bg-gray-50 rounded-lg p-3 flex flex-col items-center text-center">
                             <h2 class="font-semibold text-sm mb-1">Type</h2>
                             <p class="text-gray-800">${character.type}</p>
+                        </div>
+                        <div class="bg-gray-50 rounded-lg p-3 flex flex-col items-center text-center">
+                        <h2 class="font-semibold text-sm mb-1">EZA</h2>
+                        ${character.seza ? `
+                            <img src="../img/seza.webp" alt="SEZA" class="w-30 h-15 -bottom-2 -right-6">
+                        ` : character.eza ? `
+                            <img src="../img/EZA.webp" alt="EZA" class="w-8 h-8 -bottom-10 -right-1 ">
+                        ` : ''}
                         </div>
                     </div>
 
