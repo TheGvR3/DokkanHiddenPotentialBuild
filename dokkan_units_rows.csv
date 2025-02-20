@@ -10,7 +10,7 @@ id,category,type,name,crit,add,esc,image,eza,seza,new
 9,Super,TEQ,Pulse of the Crimson Divine Warriors Super Saiyan God Goku & Super Saiyan God Vegeta,20,15,0,Pulse of the Crimson Divine Warriors Super Saiyan God Goku & Super Saiyan God Vegeta.webp,,,
 10,Super,STR,Awakened Beast Gohan (Beast),11,15,0,Awakened Beast Gohan Beast.webp,,,
 11,Extreme,TEQ,Contradictions of Gods and Mortals Fusion Zamasu,11,15,0,Contradictions of Gods and Mortals Fusion Zamasu.webp,,,
-12,Super,TEQ,Reunion in the Otherworld Goku (Angel) & Vegeta (Angel),11,15,0,Reunion in the Otherworld Goku Angel & Vegeta Angel.webp,,,
+12,Super,TEQ,Reunion in the Otherworld Goku (Angel) & Vegeta (Angel),15,11,0,Reunion in the Otherworld Goku Angel & Vegeta Angel.webp,,,
 13,Extreme,INT,Devil Awakened from the Sub-Zero Seal Legendary Super Saiyan Broly,6,15,0,Devil Awakened from the Sub-Zero Seal Legendary Super Saiyan Broly.webp,,,
 14,Super,AGL,Silver-Gleaming New Form Goku (Ultra Instinct),0,20,6,Silver-Gleaming New Form Goku Ultra Instinct.webp,true,,
 15,Super,STR,Death Match Climax Goku (GT) & Super Saiyan 4 Vegeta,20,6,0,Death Match Climax Goku GT & Super Saiyan 4 Vegeta.webp,,,
@@ -36,7 +36,7 @@ id,category,type,name,crit,add,esc,image,eza,seza,new
 35,Super,PHY,Duty of Those Living in the Future Super Saiyan Trunks (Future),15,11,0,Duty of Those Living in the Future Super Saiyan Trunks Future.webp,,,
 36,Super,INT,Latent Ability Gohan (Kid),15,6,0,Latent Ability Gohan Kid.webp,,,
 37,Extreme,PHY,Grudge Rekindled Metal Cooler,15,11,0,Grudge Rekindled Metal Cooler.webp,,,
-38,Extreme,TEQ,Number One Saiyan Vegeta,0,0,0,Number One Saiyan Vegeta.webp,,,
+38,Extreme,TEQ,Number One Saiyan Vegeta,0,0,0,Number One Saiyan Vegeta.webp,true,,
 39,Extreme,PHY,Freakish Change Super Janemba,6,20,0,Freakish Change Super Janemba.webp,true,,
 40,Super,AGL,Adventure on Planet Namek Krillin & Gohan (Kid),15,11,0,Adventure on Planet Namek Krillin & Gohan Kid.webp,true,,
 41,Super,INT,Challenging the Demon Realm Super Saiyan Goku (Mini) (DAIMA),15,6,0,Challenging the Demon Realm Super Saiyan Goku (Mini) (DAIMA).webp,,,
@@ -128,7 +128,7 @@ id,category,type,name,crit,add,esc,image,eza,seza,new
 127,Extreme,STR,Most Malevolent Transformation Cooler (Final Form),20,6,0,Most Malevolent Transformation Cooler (Final Form).webp,,,
 128,Super,STR,Invincible Legend of Universe 11 Jiren,11,15,0,Invincible Legend of Universe 11 Jiren.webp,true,,
 129,Super,PHY,Innocent Pair Super Saiyan Trunks (Kid) & Super Saiyan Goten (Kid),0,0,0,Innocent Pair Super Saiyan Trunks (Kid) & Super Saiyan Goten (Kid).webp,true,,
-130,Extreme,STR,The Roar of Death Legendary Super Saiyan Broly,0,0,0,The Roar of Death Legendary Super Saiyan Broly.webp,true,,
+130,Extreme,STR,The Roar of Death Legendary Super Saiyan Broly,0,0,0,The Roar of Death Legendary Super Saiyan Broly.webp,false,true,
 131,Extreme,TEQ,Awakened Demonic Warrior Super Saiyan Broly,20,6,0,Awakened Demonic Warrior Super Saiyan Broly.webp,,,
 132,Super,TEQ,Quiet Grit Goku,20,6,0,Quiet Grit Goku.webp,true,,
 133,Super,STR,Saiyan's True Calling Bardock,11,15,0,Saiyan's True Calling Bardock.webp,true,,
@@ -151,7 +151,7 @@ id,category,type,name,crit,add,esc,image,eza,seza,new
 150,Extreme,PHY,Power and Knowledge Obtained Majin Buu (Gotenks),15,11,0,Power and Knowledge Obtained Majin Buu (Gotenks).webp,true,,
 151,Super,STR,Power Raised to the Maximum Super Saiyan God SS Goku (Kaioken),20,6,0,Power Raised to the Maximum Super Saiyan God SS Goku (Kaioken).webp,true,,
 152,Super,TEQ,Sons of a Great Father Gohan (Teen) & Goten (Kid),20,6,0,Sons of a Great Father Gohan (Teen) & Goten (Kid).webp,true,,
-153,Extreme,TEQ,Flare of Death Perfect Cell,11,15,0,Flare of Death Perfect Cell.webp,true,,
+153,Extreme,TEQ,Flare of Death Perfect Cell,11,15,0,Flare of Death Perfect Cell.webp,false,true,
 154,Extreme,INT,Confident Right-Hand Man Dodoria,6,15,0,Confident Right-Hand Man Dodoria.webp,,,
 155,Super,AGL,Vow to Fight Again Super Saiyan 2 Trunks (Future),6,20,0,Vow to Fight Again Super Saiyan 2 Trunks (Future).webp,,,
 156,Super,AGL,Returning Warrior Bardock,6,20,0,Returning Warrior Bardock.webp,true,,
@@ -185,11 +185,11 @@ id,category,type,name,crit,add,esc,image,eza,seza,new
 
 
 
-300,Super,STR,Burning Azure Power of Pride Super Saiyan God SS Evolved Vegeta,11,15,0,Burning Azure Power of Pride Super Saiyan God SS Evolved Vegeta.webp,,,true
-301,Super,AGL,Battle to Free the Mind Super Saiyan 3 Goku (GT),20,0,6,Battle to Free the Mind Super Saiyan 3 Goku GT.webp,,,true
-302,Super,STR,Heroic Story Born from a Bluff Hercule,15,11,0,Heroic Story Born from a Bluff Hercule.webp,,,true
-303,Super,TEQ,Light Brought Back to the Present World Super Saiyan Goku,15,11,0,Light Brought Back to the Present World Super Saiyan Goku.webp,,,true
-304,Extreme,INT,Dangerous Teammate Frieza (Final Form) (Angel),6,15,0,Dangerous Teammate Frieza Final Form Angel.webp,,,true
-305,Super,AGL,A Soul Wandering in the Otherworld Super Saiyan Vegeta (Angel),6,20,0,A Soul Wandering in the Otherworld Super Saiyan Vegeta Angel.webp,false,,true
-306,Super,PHY,Awakening of Fighting Spirit Super Saiyan 2 Gohan (Youth),15,11,0,Awakening of Fighting Spirit Super Saiyan 2 Gohan Youth.webp,,,true
-307,Super,AGL,A Gourmet God of Destruction Beerus,6,20,0,A Gourmet God of Destruction Beerus.webp,,,true
+300,Super,STR,Fight to Protect Pride and Keep Oaths Super Saiyan God SS Evolved Vegeta,11,15,0,Fight to Protect Pride and Keep Oaths Super Saiyan God SS Evolved Vegeta.webp,,,true
+301,Super,AGL,Ultimate Saiyan Power Roar Super Saiyan 3 Goku (GT) (Golden Giant Ape),20,0,6,Ultimate Saiyan Power Roar Super Saiyan 3 Goku (GT) (Golden Giant Ape).webp,,,true
+302,Super,STR,Kind-Hearted Champion Hercule,15,11,0,Kind-Hearted Champion Hercule.webp,,,true
+303,Super,TEQ,Incomparable Radiance Super Saiyan Goku + Super Saiyan Vegeta (Angel),15,11,0,Incomparable Radiance Super Saiyan Goku + Super Saiyan Vegeta (Angel).webp,,,true
+304,Extreme,INT,Universe 7's Final Will to Fight Frieza (Final Form) (Angel) + Goku,6,15,0,Universe 7's Final Will to Fight Frieza (Final Form) (Angel) + Goku.webp,,,true
+305,Super,AGL,Unprecedented Miracle Super Saiyan Vegeta (Angel) + Super Saiyan Goku (Angel),6,20,0,Unprecedented Miracle Super Saiyan Vegeta (Angel) + Super Saiyan Goku (Angel).webp,false,,true
+306,Super,PHY,Fighter Entrusted with Fate Super Saiyan 2 Gohan (Youth),15,11,0,Fighter Entrusted with Fate Super Saiyan 2 Gohan (Youth).webp,,,true
+307,Super,AGL,Chaos Brought by the God of Destruction Beerus,6,20,0,Chaos Brought by the God of Destruction Beerus.webp,,,true

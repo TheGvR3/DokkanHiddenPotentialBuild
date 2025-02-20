@@ -14,6 +14,7 @@ $(document).ready(function() {
     const unitsPerPage = 20;          // Numero di unità per pagina
     let isLoading = false;            // Flag per evitare richieste multiple
     let totalUnits = 0;               // Totale delle unità nel database
+    let currentView = 'grid'; // 'grid' o 'list'
 
     /**
      * Carica le unità dal database con i filtri specificati
@@ -131,90 +132,108 @@ $(document).ready(function() {
         const grid = $('#units-grid');
         grid.empty();
         
-        // Mostra messaggio 404 se non ci sono risultati
         if (!units || units.length === 0) {
             const notFoundMessage = $(`
-                <div class="text-center py-8">
+                <div class="text-center py-8 col-span-full">
                     <h3 class="text-2xl font-bold text-gray-800 mb-2">404 Not Found</h3>
-                    <p class="text-gray-600">Nessun risultato trovato per la tua ricerca</p>
+                    <p class="text-gray-600">No results found for your search</p>
                 </div>
             `);
             grid.append(notFoundMessage);
             return;
         }
-        
-        // Crea e aggiunge le card per ogni unità
+
         units.forEach(unit => {
-            // Definizione dei colori per tipo e categoria
-            const typeColors = {
-                'AGL': 'bg-blue-100 text-blue-800',
-                'TEQ': 'bg-green-100 text-green-800',
-                'INT': 'bg-purple-100 text-purple-800',
-                'STR': 'bg-red-100 text-red-800',
-                'PHY': 'bg-yellow-100 text-yellow-800'
-            };
-
-            const categoryColors = {
-                'Super': 'bg-orange-100 text-orange-800',
-                'Extreme': 'bg-gray-100 text-gray-800'
-            };
-
-            // Creazione della card con Tailwind CSS
-            const card = $(`
-                <div class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 flex items-center">
-                    <div class="relative mr-4">
-                        <img src="img/Units/${unit.category}/${unit.type}/${unit.image}" 
-                            alt="${unit.name}" 
-                            class="w-24 h-24 object-contain rounded-lg"
-                        >
-                        <img src="img/Type/${unit.category}/${unit.category[0]}${unit.type}_icon.webp" 
-                            alt="${unit.category} ${unit.type}" 
-                            class="w-8 h-8 absolute -top-0 -left-0"
-                        >
-                        ${unit.seza ? `
-                            <img src="img/seza.webp" 
-                                alt="SEZA" 
-                                class="w-50 h-50 absolute -bottom-4 -right-8"
+            if (currentView === 'grid') {
+                // Vista a griglia - solo immagine
+                const card = $(`
+                    <div class="bg-white p-2 sm:p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 cursor-pointer"
+                         onclick="window.location.href='pages/character.html?id=${unit.id}'">
+                        <div class="relative aspect-square">
+                            <img src="img/Units/${unit.category}/${unit.type}/${unit.image}" 
+                                alt="${unit.name}" 
+                                class="w-full h-full object-contain rounded-lg"
                             >
-                        ` : unit.eza ? `
-                            <img src="img/EZA.webp" 
-                                alt="EZA" 
-                                class="w-5 h-5 absolute -bottom-0 -right-0 -translate-x-1"
-                            >
-                        ` : unit.new ? `
-                            <img src="img/new.webp" 
-                                alt="NEW" 
-                                class="w-12 h-12 absolute -bottom-3 -right-0 -translate-x-1"
-                            >
-                        ` : ''}
+                            ${unit.seza ? `
+                                <div class="sm:hidden">
+                                    <!-- Versione mobile -->
+                                    <img src="img/seza.webp" alt="SEZA" class="w-20 h-10 absolute bottom-0 right-0 translate-x-5 translate-y-1">
+                                </div>
+                                <div class="hidden sm:block">
+                                    <!-- Versione desktop -->
+                                    <img src="img/seza.webp" alt="SEZA" class="w-27 h-13 absolute bottom-0 right-0 translate-x-6 translate-y-2">
+                                </div>
+                            ` : unit.eza ? `
+                                <div class="sm:hidden">
+                                    <!-- Versione mobile -->
+                                    <img src="img/eza.webp" alt="EZA" class="w-5 h-5 absolute bottom-1 right-2">
+                                </div>
+                                <div class="hidden sm:block">
+                                    <!-- Versione desktop -->
+                                    <img src="img/eza.webp" alt="EZA" class="w-7 h-7 absolute bottom-1 right-0 -translate-x-3">
+                                </div>
+                            ` : unit.new ? `
+                                <div class="sm:hidden">
+                                    <!-- Versione mobile -->
+                                    <img src="img/new.webp" alt="NEW" class="w-12 h-12 absolute bottom-0 right-1 translate-y-3">
+                                </div>
+                                <div class="hidden sm:block">
+                                    <!-- Versione desktop -->
+                                    <img src="img/new.webp" alt="NEW" class="w-20 h-20 absolute bottom-0 right-1 translate-y-6">
+                                </div>
+                            ` : ''}
+                        </div>
                     </div>
-                    <div class="flex-1">
-                        <h3 class="font-bold text-lg mb-2">${unit.name}</h3>
-                        ${unit.crit === 0 && unit.add === 0 && unit.esc === 0 ? `
-                            <div class="text-red-600 font-bold text-lg">
-                                Wait for EZA
-                            </div>
-                        ` : `
-                            <div class="flex gap-4">
-                                <div class="bg-gray-50 p-1.5 rounded-lg flex items-center gap-2 hover:bg-gray-100 transition-colors duration-200">
-                                    <img src="img/Skill/Pot_skill_critical.webp" alt="Crit" class="w-8 h-8">
-                                    <span class="font-medium">${unit.crit}</span>
+                `);
+                grid.append(card);
+            } else {
+                // Vista a lista - layout completo
+                const card = $(`
+                    <div class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 flex items-center cursor-pointer"
+                         onclick="window.location.href='pages/character.html?id=${unit.id}'">
+                        <div class="relative mr-4">
+                            <img src="img/Units/${unit.category}/${unit.type}/${unit.image}" 
+                                alt="${unit.name}" 
+                                class="w-24 h-24 object-contain rounded-lg"
+                            >
+                            ${unit.seza ? `
+                                <img src="img/seza.webp" alt="SEZA" class="w-20 h-10 absolute -bottom-2 -right-6">
+                            ` : unit.eza ? `
+                                <img src="img/eza.webp" alt="EZA" class="w-5 h-5 absolute -bottom-0 -right-0 -translate-x-1 -translate-y-1">
+                            ` : unit.new ? `
+                                <img src="img/new.webp" alt="NEW" class="w-10 h-10 absolute -bottom-2 -right-0 -translate-x-1">
+                            ` : ''}
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="font-bold text-lg mb-2">${unit.name}</h3>
+                            ${unit.crit === 0 && unit.add === 0 && unit.esc === 0 ? `
+                                <div class="text-red-600 font-bold text-lg">
+                                    Wait for EZA
                                 </div>
-                                <div class="bg-gray-50 p-1.5 rounded-lg flex items-center gap-2 hover:bg-gray-100 transition-colors duration-200">
-                                    <img src="img/Skill/Pot_skill_additional.webp" alt="Add" class="w-8 h-8">
-                                    <span class="font-medium">${unit.add}</span>
+                            ` : `
+                                <div class="flex gap-4">
+                                    <div class="bg-gray-50 p-1.5 rounded-lg flex items-center gap-2 hover:bg-gray-100 transition-colors duration-200">
+                                        <img src="img/Skill/Pot_skill_critical.webp" alt="Crit" class="w-8 h-8">
+                                        <span class="font-medium">${unit.crit}</span>
+                                    </div>
+                                    <div class="bg-gray-50 p-1.5 rounded-lg flex items-center gap-2 hover:bg-gray-100 transition-colors duration-200">
+                                        <img src="img/Skill/Pot_skill_additional.webp" alt="Add" class="w-8 h-8">
+                                        <span class="font-medium">${unit.add}</span>
+                                    </div>
+                                    <div class="bg-gray-50 p-1.5 rounded-lg flex items-center gap-2 hover:bg-gray-100 transition-colors duration-200">
+                                        <img src="img/Skill/Pot_skill_dodge.webp" alt="Escape" class="w-8 h-8">
+                                        <span class="font-medium">${unit.esc}</span>
+                                    </div>
                                 </div>
-                                <div class="bg-gray-50 p-1.5 rounded-lg flex items-center gap-2 hover:bg-gray-100 transition-colors duration-200">
-                                    <img src="img/Skill/Pot_skill_dodge.webp" alt="Escape" class="w-8 h-8">
-                                    <span class="font-medium">${unit.esc}</span>
-                                </div>
-                            </div>
-                        `}
+                            `}
+                        </div>
                     </div>
-                </div>
-            `);
-            grid.append(card);
+                `);
+                grid.append(card);
+            }
         });
+
+        updateViewButtons();
     }
 
     // Event Listeners per la paginazione
@@ -312,6 +331,41 @@ $(document).ready(function() {
         // Reload units
         loadUnits('', '', '', false);
     });
+
+    // Aggiungi questi event listeners dopo gli altri
+    $('#grid-view').on('click', function() {
+        if (currentView !== 'grid') {
+            currentView = 'grid';
+            updateViewButtons();
+            const search = $('#search').val();
+            const category = $('#category-filter').val();
+            const type = $('#type-filter').val();
+            loadUnits(search, category, type, false);
+        }
+    });
+
+    $('#list-view').on('click', function() {
+        if (currentView !== 'list') {
+            currentView = 'list';
+            updateViewButtons();
+            const search = $('#search').val();
+            const category = $('#category-filter').val();
+            const type = $('#type-filter').val();
+            loadUnits(search, category, type, false);
+        }
+    });
+
+    function updateViewButtons() {
+        if (currentView === 'grid') {
+            $('#grid-view').addClass('bg-blue-500 text-white').removeClass('hover:bg-blue-500 hover:text-white');
+            $('#list-view').removeClass('bg-blue-500 text-white').addClass('hover:bg-blue-500 hover:text-white');
+            $('#units-grid').removeClass('grid-cols-1').addClass('grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-2 sm:gap-4');
+        } else {
+            $('#list-view').addClass('bg-blue-500 text-white').removeClass('hover:bg-blue-500 hover:text-white');
+            $('#grid-view').removeClass('bg-blue-500 text-white').addClass('hover:bg-blue-500 hover:text-white');
+            $('#units-grid').removeClass('grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6').addClass('grid-cols-1 gap-4');
+        }
+    }
 
     // Caricamento iniziale delle unità
     loadUnits();
