@@ -11,10 +11,10 @@ $(document).ready(function() {
     
     // Variabili per la gestione della paginazione
     let currentPage = 0;              // Pagina corrente (0-based)
-    const unitsPerPage = 21;          // Numero di unità per pagina
+    const unitsPerPage = 30;          // Numero di unità per pagina
     let isLoading = false;            // Flag per evitare richieste multiple
     let totalUnits = 0;               // Totale delle unità nel database
-    let currentView = 'grid'; // 'grid' o 'list'
+    let currentView = 'grid';         // 'grid' o 'list'
 
     /**
      * Carica le unità dal database con i filtri specificati
