@@ -71,7 +71,7 @@ $(document).ready(function () {
                             <img src="../img/seza.webp" alt="SEZA" class="w-30 h-15 -bottom-2 -right-6">
                         ` : character.eza ? `
                             <img src="../img/EZA.webp" alt="EZA" class="w-8 h-8 -bottom-10 -right-1 ">
-                        ` : ''}
+                        ` : 'None'}
                         </div>
                     </div>
 
