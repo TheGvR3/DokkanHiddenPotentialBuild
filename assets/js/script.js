@@ -57,8 +57,8 @@ $(document).ready(function() {
             }
         }
         
-        // Modifica l'ordinamento per mostrare prima i più recenti
-        params.push('order=id.desc');
+        // Modifica l'ordinamento per mostrare prima i nuovi personaggi e poi gli altri in ordine decrescente
+        params.push('order=new.desc.nullslast,id.desc');
         
         // Calcolo offset per la paginazione
         const offset = currentPage * unitsPerPage;
