@@ -57,6 +57,12 @@ $(document).ready(function() {
             }
         }
         
+        // Aggiungi il filtro per il tipo di summon
+        const pullFilter = $('#pull-filter').val();
+        if (pullFilter) {
+            params.push(`pull=eq.${pullFilter}`);
+        }
+        
         // Modifica l'ordinamento per mostrare prima i nuovi personaggi e poi gli altri in ordine decrescente
         params.push('order=new.desc.nullslast,id.desc');
         
@@ -317,6 +323,15 @@ $(document).ready(function() {
         loadUnits(search, category, type, false);
     });
 
+    // Aggiungi l'event listener per il nuovo filtro
+    $('#pull-filter').on('change', function() {
+        currentPage = 0;
+        const search = $('#search').val();
+        const category = $('#category-filter').val();
+        const type = $('#type-filter').val();
+        loadUnits(search, category, type, false);
+    });
+
     // Aggiungi questo con gli altri event listeners
     $('#clear-filters').on('click', function() {
         // Reset all filters
@@ -324,6 +339,7 @@ $(document).ready(function() {
         $('#category-filter').val('');
         $('#type-filter').val('');
         $('#eza-filter').val('');
+        $('#pull-filter').val('');
         
         // Reset page
         currentPage = 0;
@@ -369,4 +385,28 @@ $(document).ready(function() {
 
     // Caricamento iniziale delle unità
     loadUnits();
+
+    // Gestione del toggle dei filtri su mobile
+    $('#filter-toggle').on('click', function() {
+        $('#filters-container').slideToggle();
+        $('#filter-arrow').toggleClass('rotate-180');
+    });
+
+    // Nascondi i filtri quando si fa una ricerca su mobile
+    $('#search-button').on('click', function() {
+        if (window.innerWidth < 1024) { // lg breakpoint
+            $('#filters-container').slideUp();
+            $('#filter-arrow').removeClass('rotate-180');
+        }
+    });
+
+    // Gestisci il resize della finestra
+    $(window).on('resize', function() {
+        if (window.innerWidth >= 1024) {
+            $('#filters-container').show();
+        } else {
+            $('#filters-container').hide();
+            $('#filter-arrow').removeClass('rotate-180');
+        }
+    });
 }); 

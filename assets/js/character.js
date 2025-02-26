@@ -75,6 +75,13 @@ $(document).ready(function () {
                         </div>
                     </div>
 
+                    <!-- Pull Type Banner -->
+                    <div class="bg-gray-50 rounded-lg p-4 mb-6 flex items-center justify-center">
+                        <img src="../img/Summon/${character.pull}.webp" 
+                             alt="${character.pull} Summon" 
+                             class="h-12 object-contain">
+                    </div>
+
                     <!-- Hidden Potential section -->
                     <div class="bg-gray-50 p-4 rounded-lg">
                         <h2 class="text-xl font-bold mb-4 text-center lg:text-left">Hidden Potential Build</h2>
