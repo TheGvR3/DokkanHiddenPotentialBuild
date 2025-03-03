@@ -75,11 +75,20 @@ $(document).ready(function () {
                         </div>
                     </div>
 
-                    <!-- Pull Type Banner -->
-                    <div class="bg-gray-50 rounded-lg p-4 mb-6 flex items-center justify-center">
-                        <img src="../img/Summon/${character.pull}.webp" 
-                             alt="${character.pull} Summon" 
-                             class="h-12 object-contain">
+                    <!-- Pull Type and Farmable section -->
+                    <div class="grid grid-cols-3 gap-3 mb-6">
+                        <!-- Pull Type Banner -->
+                        <div class="bg-gray-50 rounded-lg p-4 flex items-center justify-center col-span-2">
+                            <img src="../img/Summon/${character.pull}.webp" 
+                                 alt="${character.pull} Summon" 
+                                 class="h-12 object-contain">
+                        </div>
+
+                        <!-- Farmable section -->
+                        <div class="bg-gray-50 rounded-lg p-4 flex flex-col items-center justify-center col-span-1">
+                            <h2 class="font-semibold text-sm mb-1">Farmable</h2>
+                            <div class="text-gray-800 mt-1">${character.farmable || character.pull === 'F2p' ? 'Yes' : 'No'}</div>
+                        </div>
                     </div>
 
                     <!-- Hidden Potential section -->

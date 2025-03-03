@@ -1,212 +1,216 @@
-id,category,type,name,crit,add,esc,image,eza,seza,new,pull
-1,Extreme,PHY,Love of the Throne Majin Buu (Gotenks),6,20,0,Love of the Throne Majin Buu (Gotenks).webp,true,,,Rare
-2,Super,INT,Ultimate Power Surge Ultimate Gohan,6,15,5,Ultimate Power Surge Ultimate Gohan.webp,false,true,,Dokkan
-3,Extreme,STR,Shocking Absorption Ability Buu (Super),20,6,0,Shocking Absorption Ability Buu (Super).webp,true,,,Dokkan
-4,Extreme,INT,Brief Paternal Moment Majin Vegeta,15,6,5,Brief Paternal Moment Majin Vegeta.webp,true,,,Dokkan
-5,Extreme,AGL,Roar of Resentment Frieza (Full Power),6,20,0,Roar of Resentment Frieza (Full Power).webp,true,,,Dokkan
-6,Extreme,STR,Wrathful Eruption Majin Buu (Good),20,6,0,Wrathful Eruption Majin Buu (Good).webp,true,,,Rare
-7,Super,TEQ,Vigorous Strength Super Saiyan Goten (Kid),11,0,15,Vigorous Strength Super Saiyan Goten (Kid).webp,true,,,Rare
-8,Super,STR,Exploding Fist Super Saiyan 3 Goku,11,15,0,Exploding Fist Super Saiyan 3 Goku.webp,,,,Dokkan
-9,Super,TEQ,Divine Warriors with Infinite Power Super Saiyan God Goku & Super Saiyan God Vegeta,11,15,0,Divine Warriors with Infinite Power Super Saiyan God Goku & Super Saiyan God Vegeta.webp,true,,true,Dokkan
-10,Super,STR,Newfound Power Beyond the Ultimate Gohan (Beast),11,15,0,Newfound Power Beyond the Ultimate Gohan (Beast).webp,,,,Dokkan
-11,Extreme,TEQ,Infinite Sanctuary Fusion Zamasu,11,15,0,Infinite Sanctuary Fusion Zamasu.webp,,,,Dokkan
-12,Super,TEQ,Fusion Reborn Goku (Angel) & Vegeta (Angel),15,11,0,Fusion Reborn Goku (Angel) & Vegeta (Angel).webp,,,,Dokkan
-13,Extreme,INT,Super Warrior Who Destroys All Legendary Super Saiyan Broly,6,15,5,Super Warrior Who Destroys All Legendary Super Saiyan Broly.webp,,,,Dokkan
-14,Super,AGL,True Ultra Instinct Goku (Ultra Instinct),0,20,6,True Ultra Instinct Goku (Ultra Instinct).webp,true,,,Dokkan
-15,Super,STR,Miracle-Making Final Showdown Goku (GT) & Super Saiyan 4 Vegeta,20,6,0,Miracle-Making Final Showdown Goku (GT) & Super Saiyan 4 Vegeta.webp,,,,Dokkan
-16,Super,TEQ,Battle Against the Fate of Annihilation Bardock,11,15,0,Battle Against the Fate of Annihilation Bardock.webp,,,,Dokkan
-17,Extreme,TEQ,Universe-Devastating Combat Power Broly,11,15,0,Universe-Devastating Combat Power Broly.webp,,,,Carnival
-18,Super,PHY,Scattered Reflection of Overflowing Fighting Spirit Super Saiyan Gogeta,6,20,0,Scattered Reflection of Overflowing Fighting Spirit Super Saiyan Gogeta.webp,,,,Carnival
-19,Super,STR,Indomitable Fighter Super Saiyan Gohan (Future),11,15,0,Indomitable Fighter Super Saiyan Gohan (Future).webp,,,,Carnival
-20,Super,AGL,A Soul Pumped Up in Battle Goku,6,20,0,A Soul Pumped Up in Battle Goku.webp,,,,Carnival
-21,Super,TEQ,Extraordinary Super Warrior Super Saiyan Goku,11,15,0,Extraordinary Super Warrior Super Saiyan Goku.webp,,,,Carnival
-22,Super,STR,Battle Against Limits Goku (Kaioken),11,15,0,Battle Against Limits Goku (Kaioken).webp,true,,true,Legendary
-23,Extreme,INT,Saiyan Pride Vegeta/Goku,15,6,5,Saiyan Pride VegetaGoku.webp,,,,Legendary
-24,Super,INT,Full-Tilt Kamehameha Super Saiyan 2 Gohan (Youth),0,15,11,Full-Tilt Kamehameha Super Saiyan 2 Gohan (Youth).webp,false,true,true,Legendary
-25,Super,PHY,Saiyan Warriors with Ultimate Power Super Saiyan 4 Goku & Super Saiyan 4 Vegeta,6,20,0,Saiyan Warriors with Ultimate Power Super Saiyan 4 Goku & Super Saiyan 4 Vegeta.webp,true,,true,Dokkan
-26,Super,PHY,Fierce Clash of Burning Power Super Saiyan Goku & Super Saiyan Gohan (Youth) & Super Saiyan Trunks (Teen),15,11,0,Fierce Clash of Burning Power Super Saiyan Goku & Super Saiyan Gohan (Youth) & Super Saiyan Trunks (Teen).webp,,,,Dokkan
-27,Extreme,AGL,Surge of Heightened Fighting Spirit Super Saiyan Broly,15,11,0,Surge of Heightened Fighting Spirit Super Saiyan Broly.webp,,,,Dokkan
-28,Super,PHY,Universe's Last Hope Super Saiyan 3 Goku & Super Saiyan 2 Vegeta,15,11,0,Universe's Last Hope Super Saiyan 3 Goku & Super Saiyan 2 Vegeta.webp,,,,Dokkan
-29,Super,INT,Strike of Full Anger Super Saiyan Goku,6,15,5,Strike of Full Anger Super Saiyan Goku.webp,true,,,Dokkan
-30,Super,INT,True Warrior Race Super Saiyan God SS Evolved Vegeta,0,15,11,True Warrior Race Super Saiyan God SS Evolved Vegeta.webp,true,,,Dokkan
-31,Super,STR,Fused Hope Goku & Vegeta (Angel),11,15,0,Fused Hope Goku & Vegeta (Angel).webp,true,,,Dokkan
-32,Super,AGL,All-Out Final Battle Super Saiyan God SS Goku & Super Saiyan God SS Vegeta,6,20,0,All-Out Final Battle Super Saiyan God SS Goku & Super Saiyan God SS Vegeta.webp,,,,Dokkan
-33,Super,STR,All-Out Super Attack Super Saiyan Gohan (Teen),11,15,0,All-Out Super Attack Super Saiyan Gohan (Teen).webp,,,,Carnival
-34,Super,INT,Radiantly Shining Heroes Gamma 1 & Gamma 2/Gamma 1,6,15,5,Radiantly Shining Heroes Gamma 1 & Gamma 2Gamma 1.webp,,,,Carnival
-35,Super,PHY,Hope at the End of a Deadly Showdown Super Saiyan Trunks (Future),15,11,0,Hope at the End of a Deadly Showdown Super Saiyan Trunks (Future).webp,,,,Carnival
-36,Super,INT,Beyond the Shining Clouds Gohan (Kid),15,6,5,Beyond the Shining Clouds Gohan (Kid).webp,,,,Carnival
-37,Extreme,PHY,Infinite Terror Metal Cooler,15,11,0,Infinite Terror Metal Cooler.webp,,,,Carnival
-38,Extreme,TEQ,Furious Last Resort Vegeta (Giant Ape),20,6,0,Furious Last Resort Vegeta (Giant Ape).webp,true,,true,Legendary
-39,Extreme,PHY,Boiling Evil Super Janemba,6,20,0,Boiling Evil Super Janemba.webp,true,,,Legendary
-40,Super,AGL,Dilemma on the Battlefield Krillin & Gohan (Kid),15,11,0,Dilemma on the Battlefield Krillin & Gohan (Kid).webp,true,,,Legendary
-41,Super,INT,Battle for the Dragon Balls in the Demon Realm Super Saiyan Goku (Mini) (DAIMA),15,6,5,Battle for the Dragon Balls in the Demon Realm Super Saiyan Goku (Mini) (DAIMA).webp,,,,Dokkan
-42,Super,AGL,Pressed-for-Time Showdown Super Saiyan 3 Goku (Angel),6,20,0,Pressed-for-Time Showdown Super Saiyan 3 Goku (Angel).webp,,,,Dokkan
-43,Super,PHY,Awakened Super Hero Ultimate Gohan,6,20,0,Awakened Super Hero Ultimate Gohan.webp,,,,Dokkan
-44,Super,PHY,Battle to Protect Tomorrow Super Saiyan 2 Goku,6,20,0,Battle to Protect Tomorrow Super Saiyan 2 Goku.webp,true,,,Dokkan
-45,Extreme,INT,Terrifying Phantom Majin Hirudegarn,6,15,5,Terrifying Phantom Majin Hirudegarn.webp,,,,Dokkan
-46,Extreme,INT,Death Match for World Domination Piccolo Jr. (Giant Form),6,15,5,Death Match for World Domination Piccolo Jr. (Giant Form).webp,,,,Dokkan
-47,Extreme,TEQ,Otherworld in Collapse Janemba,20,6,0,Otherworld in Collapse Janemba.webp,,,,Dokkan
-48,Super,PHY,Wielder of Thunder Magic Glorio,15,11,0,Wielder of Thunder Magic Glorio.webp,,,,Dokkan
-49,Super,TEQ,Exploding Latent Power Piccolo (Power Awakening),20,6,0,Exploding Latent Power Piccolo (Power Awakening).webp,,,,Dokkan
-50,Extreme,STR,Majin of Destruction Buu (Kid),11,15,0,Majin of Destruction Buu (Kid).webp,true,,,Dokkan
-51,Extreme,INT,The Awakened Ego and Joy of Combat Majin Buu (Good),6,15,5,The Awakened Ego and Joy of Combat Majin Buu (Good).webp,,,,Dokkan
-52,Super,TEQ,Showdown for the World's Strongest Goku,11,15,0,Showdown for the World's Strongest Goku.webp,,,,Dokkan
-53,Super,AGL,Righteous Otherworld Defense Paikuhan,6,20,0,Righteous Otherworld Defense Paikuhan.webp,,,,Dokkan
-54,Super,TEQ,Audacious Finish Super Saiyan 3 Gotenks,11,15,0,Audacious Finish Super Saiyan 3 Gotenks.webp,,,,Carnival
-55,Super,AGL,Furious Finish Super Saiyan Gotenks,6,20,0,Furious Finish Super Saiyan Gotenks.webp,true,,,Rare
-56,Super,PHY,Overconfident Challenge Gotenks,6,20,0,Overconfident Challenge Gotenks.webp,,,,Rare
-57,Super,INT,Power in Full Force Super Saiyan Goten (Kid),6,11,5,Power in Full Force Super Saiyan Goten (Kid).webp,true,,,Rare
-58,Super,TEQ,Mustered Power Super Saiyan Trunks (Kid),11,15,0,Mustered Power Super Saiyan Trunks (Kid).webp,true,,,Rare
-59,Super,TEQ,Indomitable Fighting Spirit Super Saiyan 2 Vegeta,20,6,0,Indomitable Fighting Spirit Super Saiyan 2 Vegeta.webp,true,,,Dokkan
-60,Super,INT,Rousing Fighting Spirit Super Saiyan 2 Goku (Angel),0,15,11,Rousing Fighting Spirit Super Saiyan 2 Goku (Angel).webp,true,,,Dokkan
-61,Extreme,STR,Evil-Stained Androids Android #17 & Hell Fighter #17,11,15,0,Evil-Stained Androids Android 17 & Hell Fighter 17.webp,,,,Dokkan
-62,Super,INT,Universe's Bravest Hercule,0,15,11,Universe's Bravest Hercule.webp,true,,,Rare
-63,Super,PHY,A Promise Made to Kakarot Super Saiyan 2 Vegeta (Angel),15,11,0,A Promise Made to Kakarot Super Saiyan 2 Vegeta (Angel).webp,true,,,Legendary
-64,Super,AGL,Solitary Iron Wall of Power Jiren,6,20,0,Solitary Iron Wall of Power Jiren.webp,,,,Carnival
-65,Extreme,TEQ,The Dispelled Evil Heart Majin Buu (Pure Evil),11,15,0,The Dispelled Evil Heart Majin Buu (Pure Evil).webp,,,,Rare
-66,Super,STR,A God Praying for Peace Grand Supreme Kai,11,15,0,A God Praying for Peace Grand Supreme Kai.webp,,,,Rare
-67,Extreme,TEQ,Application of Skills and Intelligence Majin Buu (Ultimate Gohan),11,15,0,Application of Skills and Intelligence Majin Buu (Ultimate Gohan).webp,,,,Dokkan
-68,Extreme,TEQ,Awakening of the Prince Vegeta,20,6,0,Awakening of the Prince Vegeta.webp,,,,Dokkan
-69,Extreme,AGL,Decisive Strike of Rebellion Vegeta,15,11,0,Decisive Strike of Rebellion Vegeta.webp,,,,Dokkan
-70,Extreme,INT,Elimination of the Traitor Cui,6,15,5,Elimination of the Traitor Cui.webp,,,,Rare
-71,Super,AGL,Genius Scientist's Courage and Resolve Android #21 (Normal),15,11,0,Genius Scientist's Courage and Resolve Android 21 (Normal).webp,,,,Dokkan
-72,Extreme,PHY,Demonic Fighter Wielding Forbidden Power Turles,6,20,0,Demonic Fighter Wielding Forbidden Power Turles.webp,,,,Dokkan
-73,Super,PHY,Limitless Combat Power Super Saiyan Vegeta,15,11,0,Limitless Combat Power Super Saiyan Vegeta.webp,true,,,Dokkan
-74,Super,STR,Pinnacle of Fury Goku,11,15,0,Pinnacle of Fury Goku.webp,true,,,Dokkan
-75,Extreme,PHY,Emperor's Devotion Frieza (Full Power),15,11,0,Emperor's Devotion Frieza (Full Power).webp,false,true,,Dokkan
-76,Super,INT,Divine Combat Begins Super Saiyan God SS Goku/Super Saiyan God SS Vegeta,6,15,5,Divine Combat Begins Super Saiyan God SS GokuSuper Saiyan God SS Vegeta.webp,,,,Dokkan
-77,Super,STR,Tenacious Secret Plan Super Vegeta,0,15,6,Tenacious Secret Plan Super Vegeta.webp,true,,,Dokkan
-78,Super,STR,Zealous Roar Super Saiyan Goku,11,15,0,Zealous Roar Super Saiyan Goku.webp,true,,,Rare
-79,Super,PHY,Furious Instincts Great Saiyaman (SS2),6,20,0,Furious Instincts Great Saiyaman (SS2).webp,true,,,Rare
-80,Super,PHY,Determined to Fight Goku (Kaioken),15,11,0,Determined to Fight Goku (Kaioken).webp,,,,Rare
-81,Super,TEQ,Tide-Turning Super Power Gohan (Kid)/Piccolo,11,15,0,Tide-Turning Super Power Gohan (Kid)Piccolo.webp,,,,Legendary
-82,Super,AGL,Magnificent Ultimate Battle Ultimate Gohan,15,11,0,Magnificent Ultimate Battle Ultimate Gohan.webp,,,,Legendary
-83,Super,INT,Wise Warrior Piccolo,15,6,5,Wise Warrior Piccolo.webp,true,,,Rare
-84,Super,AGL,Earnest Determination Nail,6,20,0,Earnest Determination Nail.webp,true,,,Rare
-85,Extreme,INT,Unprecedented Elite Team Captain Ginyu (Ginyu Force),6,15,5,Unprecedented Elite Team Captain Ginyu (Ginyu Force).webp,,,,Legendary
-86,Extreme,AGL,Earth-Piercing Light Frieza (Final Form),15,11,0,Earth-Piercing Light Frieza (Final Form).webp,,,,Rare
-87,Extreme,STR,Catastrophic Rage Frieza (Final Form),20,6,0,Catastrophic Rage Frieza (Final Form).webp,,,,Rare
-88,Super,STR,Next-Generation-Guiding Turtle School Master Roshi,11,15,0,Next-Generation-Guiding Turtle School Master Roshi.webp,,,,Dokkan
-89,Super,STR,Ally of Love and Friendship Videl,11,15,0,Ally of Love and Friendship Videl.webp,true,,,Dokkan
-90,Super,AGL,Adventurous Girl's Love at First Sight Bulma (Bunny),15,11,0,Adventurous Girl's Love at First Sight Bulma (Bunny).webp,,,,Rare
-91,Super,PHY,Quest for the Dragon Balls Goku (Youth),6,20,0,Quest for the Dragon Balls Goku (Youth).webp,,,,Dokkan
-92,Super,PHY,Fighter Entrusted with Allies' Wishes Super Saiyan God Goku,15,11,0,Fighter Entrusted with Allies' Wishes Super Saiyan God Goku.webp,,,,Dokkan
-93,Extreme,AGL,Beautiful Final View Frieza (1st Form),6,20,0,Beautiful Final View Frieza (1st Form).webp,,,,Dokkan
-94,Super,INT,Earth's Dominant Elite Yamcha,6,15,5,Earth's Dominant Elite Yamcha.webp,,,,Dokkan
-95,Super,TEQ,Super Power Counterattack Super Saiyan Trunks (Teen),11,15,0,Super Power Counterattack Super Saiyan Trunks (Teen).webp,,,,Dokkan
-96,Super,AGL,Resilient Power of Emotions Kale (Berserk),15,11,0,Resilient Power of Emotions Kale (Berserk).webp,,,,Dokkan
-97,Extreme,STR,Murderous Overlord Boujack,11,15,0,Murderous Overlord Boujack.webp,true,,,Dokkan
-98,Extreme,STR,Extreme Ultimate Power Cooler,11,15,0,Extreme Ultimate Power Cooler.webp,true,,,Dokkan
-99,Super,PHY,Kami and Demon King United Piccolo,6,20,0,Kami and Demon King United Piccolo.webp,true,,,Dokkan
-100,Super,TEQ,Devastating Punishment Beerus,11,15,0,Devastating Punishment Beerus.webp,false,true,,Dokkan
-101,Extreme,INT,Eerie Invaders Angila & Medamatcha,15,6,5,Eerie Invaders Angila & Medamatcha.webp,,,,Rare
-102,Extreme,STR,Terrifying Super Namekian Lord Slug,20,6,0,Terrifying Super Namekian Lord Slug.webp,,,,Dokkan
-103,Super,STR,Epic Defensive Battle Piccolo & Gohan (Kid)/Gohan (Kid),11,15,0,Epic Defensive Battle Piccolo & Gohan (Kid)Gohan (Kid).webp,,,,Dokkan
-104,Super,STR,Darkness-Purging Universe Tree Power Super Saiyan God SS Goku (Universe Tree Power),11,15,0,Darkness-Purging Universe Tree Power Super Saiyan God SS Goku (Universe Tree Power).webp,,,,Crossover
-105,Super,PHY,Enigmatic Fighter Warrior in Black (Super Saiyan) (Dark Dragon Ball Boost),6,20,0,Enigmatic Fighter Warrior in Black (Super Saiyan) (Dark Dragon Ball Boost).webp,,,,Crossover
-106,Extreme,INT,Space-Time Selector Aeos,15,6,5,Space-Time Selector Aeos.webp,,,,Crossover
-107,Extreme,AGL,Dark Barrier That Isolates All Fu (Youth) (Dogidogi Fully Absorbed),6,20,0,Dark Barrier That Isolates All Fu (Youth) (Dogidogi Fully Absorbed).webp,,,,Crossover
-108,Extreme,TEQ,Creation of a Dark World Dark King Demigra (Power of Time Unleashed),11,15,0,Creation of a Dark World Dark King Demigra (Power of Time Unleashed).webp,,,,Crossover
-109,Super,STR,Earth-Shaking Immense Power Super Saiyan Goku,20,6,0,Earth-Shaking Immense Power Super Saiyan Goku.webp,,,,Carnival
-110,Extreme,STR,Ultimate Weapon That Wreaks Destruction and Doom Cell Max,11,15,0,Ultimate Weapon That Wreaks Destruction and Doom Cell Max.webp,,,,Legendary
-111,Extreme,AGL,The Ultimate Shadow Dragon Omega Shenron,15,11,0,The Ultimate Shadow Dragon Omega Shenron.webp,,,,Carnival
-112,Extreme,TEQ,Fiendish Intellect and Strength Baby,11,15,0,Fiendish Intellect and Strength Baby.webp,,,,Rare
-113,Super,STR,Counterattack of Humanity's Survivors Mai (Future),6,15,0,Counterattack of Humanity's Survivors Mai (Future).webp,,,,Rare
-114,Extreme,PHY,Rebellion Against Divine Justice Zamasu,6,20,0,Rebellion Against Divine Justice Zamasu.webp,,,,Rare
-115,Super,INT,Universe 7's All-Out Offensive Android #17 (Team Universe 7),6,15,5,Universe 7's All-Out Offensive Android 17 (Team Universe 7).webp,true,,,Legendary
-116,Extreme,PHY,Very Last Possibility Golden Frieza (Angel) & Android #17,6,20,0,Very Last Possibility Golden Frieza (Angel) & Android 17.webp,true,,,Legendary
-117,Super,PHY,Determination to Protect Universe 11 Toppo,6,20,0,Determination to Protect Universe 11 Toppo.webp,,,,Dokkan
-118,Super,INT,Greatest Evolution of Power Super Saiyan 4 Goku,6,15,5,Greatest Evolution of Power Super Saiyan 4 Goku.webp,,,,Dokkan
-119,Super,PHY,Beyond Boundless Power Super Saiyan God SS Goku (Kaioken) & Super Saiyan God SS Evolved Vegeta,6,20,0,Beyond Boundless Power Super Saiyan God SS Goku (Kaioken) & Super Saiyan God SS Evolved Vegeta.webp,true,,,Dokkan
-120,Super,TEQ,Power Beyond the Extremes Gohan (Teen),11,15,0,Power Beyond the Extremes Gohan (Teen).webp,true,,,Dokkan
-121,Super,INT,Heroic Warrior Gohan (Future),6,15,5,Heroic Warrior Gohan (Future).webp,true,,,Dokkan
-122,Super,INT,Intense Struggle for Survival Androids #17 & #18,6,15,5,Intense Struggle for Survival Androids 17 & 18.webp,,,,Dokkan
-123,Super,AGL,Transcendent Fusion Super Saiyan Gogeta,6,20,0,Transcendent Fusion Super Saiyan Gogeta.webp,true,,,Dokkan
-124,Extreme,PHY,Endless Evolution of the Warrior Race Super Saiyan Broly,15,11,0,Endless Evolution of the Warrior Race Super Saiyan Broly.webp,true,,,Dokkan
-125,Super,TEQ,Ultimate Mode Change Catopesra,11,15,0,Ultimate Mode Change Catopesra.webp,,,,Rare
-126,Super,TEQ,Fearless Charge Videl,11,15,0,Fearless Charge Videl.webp,,,,Rare
-127,Extreme,STR,Planet-Crushing Blow Cooler (Final Form),20,6,0,Planet-Crushing Blow Cooler (Final Form).webp,,,,Dokkan
-128,Super,STR,Absolute Power Jiren,11,15,0,Absolute Power Jiren.webp,true,,,Dokkan
-129,Super,PHY,Pint-Sized Super Warriors Super Saiyan Trunks (Kid) & Super Saiyan Goten (Kid),0,20,6,Pint-Sized Super Warriors Super Saiyan Trunks (Kid) & Super Saiyan Goten (Kid).webp,true,,,Dokkan
-130,Extreme,STR,Super Warrior of Destruction Legendary Super Saiyan Broly,5,15,6,Super Warrior of Destruction Legendary Super Saiyan Broly.webp,false,true,,Dokkan
-131,Extreme,TEQ,Nightmarish Impact Super Saiyan Broly,20,6,0,Nightmarish Impact Super Saiyan Broly.webp,true,,,Legendary
-132,Super,TEQ,Golden Fist Super Saiyan 3 Goku,20,6,0,Golden Fist Super Saiyan 3 Goku.webp,true,,,Legendary
-133,Super,STR,Parents' Guidance Bardock & Gine,11,15,0,Parents' Guidance Bardock & Gine.webp,true,,,Rare
-134,Super,INT,All-Out Ultimate Battle Super Saiyan Goku & Super Saiyan Vegeta & Super Saiyan Trunks (Teen),6,15,5,All-Out Ultimate Battle Super Saiyan Goku & Super Saiyan Vegeta & Super Saiyan Trunks (Teen).webp,,,,Carnival
-135,Extreme,PHY,A New Life on Vampa Broly & Cheelai & Lemo,15,11,0,A New Life on Vampa Broly & Cheelai & Lemo.webp,true,,,Legendary
-136,Extreme,AGL,Swirling Ambition Turles (Giant Ape),6,20,0,Swirling Ambition Turles (Giant Ape).webp,true,,,Rare
-137,Extreme,STR,Unparalleled Force of Evil Turles,11,15,0,Unparalleled Force of Evil Turles.webp,,,,Legendary
-138,Extreme,INT,Troublesome Father and Son Paragus & Broly,6,15,5,Troublesome Father and Son Paragus & Broly.webp,true,,,Rare
-139,Super,AGL,Flaring Battle Impulse Super Saiyan God Goku,6,20,0,Flaring Battle Impulse Super Saiyan God Goku.webp,true,,,Rare
-140,Super,PHY,Resolve to Challenge Powerful Foes Piccolo/Super Saiyan Vegeta,6,20,0,Resolve to Challenge Powerful Foes PiccoloSuper Saiyan Vegeta.webp,,,,Rare
-141,Super,AGL,Full-Power Final Showdown Super Saiyan Goku & Super Saiyan Vegeta,6,20,0,Full-Power Final Showdown Super Saiyan Goku & Super Saiyan Vegeta.webp,,,,Dokkan
-142,Extreme,INT,Instinctive Destruction Legendary Super Saiyan Broly,6,15,5,Instinctive Destruction Legendary Super Saiyan Broly.webp,true,,,Dokkan
-143,Super,AGL,Mystery Super Technique Super Saiyan 3 Goku,6,20,0,Mystery Super Technique Super Saiyan 3 Goku.webp,false,true,,Dokkan
-144,Super,STR,Imperturbable Hero Gamma 1,11,15,0,Imperturbable Hero Gamma 1.webp,,,,Dokkan
-145,Super,AGL,Fearless Hero Gamma 2,6,20,0,Fearless Hero Gamma 2.webp,,,,Dokkan
-146,Super,TEQ,Transcendent Divine Power Goku (Ultra Instinct -Sign-),11,15,0,Transcendent Divine Power Goku (Ultra Instinct -Sign-).webp,,,,Dokkan
-147,Super,STR,Pride of the Super-Speed Warrior Dyspo,11,15,0,Pride of the Super-Speed Warrior Dyspo.webp,,,,Rare
-148,Extreme,PHY,Mastery of the Power of Rage Goku Black (Super Saiyan Rosé),15,11,0,Mastery of the Power of Rage Goku Black (Super Saiyan Rosé).webp,,,,Dokkan
-149,Super,INT,Power of Pride and Hope Super Saiyan God SS Vegeta & Super Saiyan Trunks (Future),6,15,5,Power of Pride and Hope Super Saiyan God SS Vegeta & Super Saiyan Trunks (Future).webp,,,,Dokkan
-150,Extreme,PHY,Invincible Absorption Majin Buu (Gotenks),15,11,0,Invincible Absorption Majin Buu (Gotenks).webp,true,,,Dokkan
-151,Super,STR,Final Super Power Super Saiyan God SS Goku (Kaioken),20,6,0,Final Super Power Super Saiyan God SS Goku (Kaioken).webp,true,,,Dokkan
-152,Super,TEQ,Miracle-Calling Clash Super Saiyan Gohan (Teen) & Super Saiyan Goten (Kid),20,6,0,Miracle-Calling Clash Super Saiyan Gohan (Teen) & Super Saiyan Goten (Kid).webp,true,,,Dokkan
-153,Extreme,TEQ,Surpassing All Perfect Cell,11,15,0,Surpassing All Perfect Cell.webp,false,true,true,Dokkan
-154,Extreme,INT,Cruel Death Sentence Dodoria,6,15,5,Cruel Death Sentence Dodoria.webp,,,,Rare
-155,Super,AGL,Battle to Defend the Dignity of Mankind Super Saiyan 2 Trunks (Future),6,20,0,Battle to Defend the Dignity of Mankind Super Saiyan 2 Trunks (Future).webp,,,,Rare
-156,Super,AGL,Raging Counterattack Bardock,6,20,0,Raging Counterattack Bardock.webp,true,,,Dokkan
-157,Extreme,TEQ,Split Into Good and Evil Majin Buu (Good)/Majin Buu (Pure Evil),14,12,0,Split Into Good and Evil Majin Buu (Good)Majin Buu (Pure Evil).webp,true,,,Dokkan
-158,Extreme,AGL,Emperor's Newfound Power Golden Frieza,15,11,0,Emperor's Newfound Power Golden Frieza.webp,,,,Legendary
-159,Super,INT,Light That Defends the Green Planet Goku,15,6,5,Light That Defends the Green Planet Goku.webp,,,,Legendary
-160,Super,STR,Fighter's Self-Awareness Super Saiyan Gohan (Youth),20,6,0,Fighter's Self-Awareness Super Saiyan Gohan (Youth).webp,,,,Rare
-161,Extreme,INT,Joint Battlefield Disruption Amond & Rasin,15,6,5,Joint Battlefield Disruption Amond & Rasin.webp,,,,Rare
-162,Extreme,AGL,No One Escapes Daiz & Cacao,6,20,0,No One Escapes Daiz & Cacao.webp,,,,Rare
-163,Super,TEQ,Greatest Instant Combat Power Born of Love Super Saiyan Vegeta,11,15,0,Greatest Instant Combat Power Born of Love Super Saiyan Vegeta.webp,,,,Rare
-164,Super,AGL,Unusual Pairing Super Saiyan 3 Gotenks & Piccolo,15,11,0,Unusual Pairing Super Saiyan 3 Gotenks & Piccolo.webp,,,,Rare
-165,Super,STR,Warrior Race's Resolve Super Saiyan Cabba,11,15,0,Warrior Race's Resolve Super Saiyan Cabba.webp,true,,,Rare
-166,Extreme,STR,Evolution to Match Strength Hit,11,15,0,Evolution to Match Strength Hit.webp,true,,,Rare
-167,Extreme,STR,Joint Struggle for Survival Golden Frieza (Angel) & Ultimate Gohan,20,6,0,Joint Struggle for Survival Golden Frieza (Angel) & Ultimate Gohan.webp,,,,Rare
-168,Super,STR,Love Elevated to the Extremes Zirloin & Rabanra & Zarbuto,11,15,0,Love Elevated to the Extremes Zirloin & Rabanra & Zarbuto.webp,,,,Rare
-169,Extreme,STR,Demonstration of True Strength Frost (Full Power),11,15,0,Demonstration of True Strength Frost (Full Power).webp,true,,,Rare
-170,Super,INT,Roar of Rage Gohan (Kid),6,15,5,Roar of Rage Gohan (Kid).webp,true,,,Rare
-171,Extreme,INT,Saiyans' Limitless Potential Vegeta,6,15,0,Saiyans' Limitless Potential Vegeta.webp,true,,,Rare
-172,Super,INT,Promising New Blood Pan (Kid),6,15,5,Promising New Blood Pan (Kid).webp,,,,Rare
-173,Super,INT,Saiyan Alliance Tora,15,6,5,Saiyan Alliance Tora.webp,,,,Rare
-174,Extreme,INT,Cheerful Scouting Cheelai,6,15,5,Cheerful Scouting Cheelai.webp,,,,Rare
-175,Extreme,INT,Demon of Destruction and Vengeance Super Garlic Jr.,15,6,5,Demon of Destruction and Vengeance Super Garlic Jr.webp,,,,Rare
-176,Super,INT,A Promise to Master Super Saiyan Cabba,15,6,5,A Promise to Master Super Saiyan Cabba.webp,,,,Rare
-177,Super,AGL,Victorious Smile Pan (GT),6,20,0,Victorious Smile Pan (GT).webp,true,,,Rare
-178,Extreme,AGL,Fierce Focused Attack Hyper Meta-Rilldo,6,20,0,Fierce Focused Attack Hyper Meta-Rilldo.webp,true,,,Rare
-179,Super,AGL,Sworn Friends Trunks (GT) & Goten (GT),15,11,0,Sworn Friends Trunks (GT) & Goten (GT).webp,,,,Rare
-180,Super,AGL,All-Out Power of Friendship Hacchan,15,11,0,All-Out Power of Friendship Hacchan.webp,,,,Rare
-181,Super,AGL,Self-Proclaimed Super Elite Jaco,15,11,0,Self-Proclaimed Super Elite Jaco.webp,,,,Rare
-182,Super,TEQ,All-Out Focus Tien,11,15,0,All-Out Focus Tien.webp,true,,,Rare
-183,Extreme,TEQ,Pursuing Perfection Cell (2nd Form),11,15,0,Pursuing Perfection Cell (2nd Form).webp,true,,,Rare
-184,Super,TEQ,Wimpy Savior Yajirobe,11,15,0,Wimpy Savior Yajirobe.webp,,,,Rare
-185,Super,TEQ,Strength Concentrated on the Fists Krillin & Gohan (Youth),11,15,0,Strength Concentrated on the Fists Krillin & Gohan (Youth).webp,,,,Rare
-186,Super,TEQ,Victor of the Future Super Saiyan Trunks (Future),11,15,0,Victor of the Future Super Saiyan Trunks (Future).webp,true,,,Rare
-187,Extreme,TEQ,Casual Refreshment Android #18,11,15,0,Casual Refreshment Android 18.webp,true,,,Rare
-188,Extreme,INT,Eerie Sense of Despair Frieza (3rd Form),6,15,0,Eerie Sense of Despair Frieza (3rd Form).webp,,,,Rare
-189,Extreme,AGL,Sinister Genius Scientist Dr. Wheelo,9,17,0,Sinister Genius Scientist Dr. Wheelo.webp,,,,F2p
-190,Extreme,STR,Reign of Terror Frieza (1st Form),20,6,0,Reign of Terror Frieza (1st Form).webp,true,,,F2p
-191,Super,TEQ,Everlasting Legend Super Saiyan Goku,5,15,6,Everlasting Legend Super Saiyan Goku.webp,false,true,,F2p
-192,Extreme,INT,Awakened Saiyan Blood Super Saiyan Vegeta,15,6,5,Awakened Saiyan Blood Super Saiyan Vegeta.webp,true,,,F2p
-193,Super,AGL,Alternate Ending Super Saiyan Trunks (Future),15,11,0,Alternate Ending Super Saiyan Trunks (Future).webp,true,,,F2p
-194,Super,PHY,Raging Killer Move Krillin,15,11,0,Raging Killer Move Krillin.webp,true,,,F2p
-195,Extreme,PHY,Terrifying Biotechnology Bio-Broly,6,20,0,Terrifying Biotechnology Bio-Broly.webp,true,,,F2p
-196,Extreme,TEQ,Life Form of Hate and Ruin Cell (1st Form),11,15,0,Life Form of Hate and Ruin Cell (1st Form).webp,true,,,F2p
-197,Extreme,PHY,Worldwide Terror Babidi & Majin Buu (Good),15,11,0,Worldwide Terror Babidi & Majin Buu (Good).webp,true,,,F2p
-198,Super,INT,The Last Tri-Beam Tien,15,6,5,The Last Tri-Beam Tien.webp,,,,F2p
-199,Super,STR,Power in a Pinch Gohan (Kid),11,15,0,Power in a Pinch Gohan (Kid).webp,true,,,F2p
-200,Extreme,PHY,Storm of Terror Frieza (2nd Form),20,0,0,Storm of Terror Frieza (2nd Form).webp,true,,,F2p
-201,Extreme,AGL,Demon King's Great Wish Demon King Piccolo (Elder),6,20,0,Demon King's Great Wish Demon King Piccolo (Elder).webp,,,true,F2p
-202,Super,PHY,Companion from the Old Days Goku (Mini) (DAIMA),6,20,0,Companion from the Old Days Goku (Mini) (DAIMA).webp,,,true,F2p
-203,Super,STR,Fight to Protect Pride and Keep Oaths Super Saiyan God SS Evolved Vegeta,11,15,0,Fight to Protect Pride and Keep Oaths Super Saiyan God SS Evolved Vegeta.webp,,,true,Carnival
-204,Super,AGL,Ultimate Saiyan Power Roar Super Saiyan 3 Goku (GT) (Golden Giant Ape),20,0,6,Ultimate Saiyan Power Roar Super Saiyan 3 Goku (GT) (Golden Giant Ape).webp,,,true,Carnival
-205,Super,STR,Kind-Hearted Champion Hercule,15,11,0,Kind-Hearted Champion Hercule.webp,,,true,Rare
-206,Super,TEQ,Incomparable Radiance Super Saiyan Goku + Super Saiyan Vegeta (Angel),15,11,0,Incomparable Radiance Super Saiyan Goku + Super Saiyan Vegeta (Angel).webp,,,true,Dokkan
-207,Extreme,INT,Universe 7's Final Will to Fight Frieza (Final Form) (Angel) + Goku,6,15,0,Universe 7's Final Will to Fight Frieza (Final Form) (Angel) + Goku.webp,,,true,Carnival
-208,Super,AGL,Unprecedented Miracle Super Saiyan Vegeta (Angel) + Super Saiyan Goku (Angel),6,20,0,Unprecedented Miracle Super Saiyan Vegeta (Angel) + Super Saiyan Goku (Angel).webp,false,,true,Dokkan
-209,Super,PHY,Fighter Entrusted with Fate Super Saiyan 2 Gohan (Youth),15,11,0,Fighter Entrusted with Fate Super Saiyan 2 Gohan (Youth).webp,,,true,Carnival
-210,Super,AGL,Chaos Brought by the God of Destruction Beerus,6,20,0,Chaos Brought by the God of Destruction Beerus.webp,,,true,Rare
-211,Super,PHY,Breathing and Timing in Unison,15,11,0,Breathing and Timing in Unison.webp,,,true,F2p
+id,category,type,name,crit,add,esc,image,eza,seza,new,pull,farmable
+1,Extreme,PHY,Love of the Throne Majin Buu (Gotenks),6,20,0,Love of the Throne Majin Buu (Gotenks).webp,true,,,Rare,true
+2,Super,INT,Ultimate Power Surge Ultimate Gohan,6,15,5,Ultimate Power Surge Ultimate Gohan.webp,false,true,,Dokkan,true
+3,Extreme,STR,Shocking Absorption Ability Buu (Super),20,6,0,Shocking Absorption Ability Buu (Super).webp,true,,,Dokkan,true
+4,Extreme,INT,Brief Paternal Moment Majin Vegeta,15,6,5,Brief Paternal Moment Majin Vegeta.webp,true,,,Dokkan,
+5,Extreme,AGL,Roar of Resentment Frieza (Full Power),6,20,0,Roar of Resentment Frieza (Full Power).webp,true,,,Dokkan,
+6,Extreme,STR,Wrathful Eruption Majin Buu (Good),20,6,0,Wrathful Eruption Majin Buu (Good).webp,true,,,Rare,true
+7,Super,TEQ,Vigorous Strength Super Saiyan Goten (Kid),11,0,15,Vigorous Strength Super Saiyan Goten (Kid).webp,true,,,Rare,true
+8,Super,STR,Exploding Fist Super Saiyan 3 Goku,11,15,0,Exploding Fist Super Saiyan 3 Goku.webp,,,,Dokkan,
+9,Super,TEQ,Divine Warriors with Infinite Power Super Saiyan God Goku & Super Saiyan God Vegeta,11,15,0,Divine Warriors with Infinite Power Super Saiyan God Goku & Super Saiyan God Vegeta.webp,true,,true,Dokkan,
+10,Super,STR,Newfound Power Beyond the Ultimate Gohan (Beast),11,15,0,Newfound Power Beyond the Ultimate Gohan (Beast).webp,,,,Dokkan,
+11,Extreme,TEQ,Infinite Sanctuary Fusion Zamasu,11,15,0,Infinite Sanctuary Fusion Zamasu.webp,,,,Dokkan,true
+12,Super,TEQ,Fusion Reborn Goku (Angel) & Vegeta (Angel),15,11,0,Fusion Reborn Goku (Angel) & Vegeta (Angel).webp,,,,Dokkan,
+13,Extreme,INT,Super Warrior Who Destroys All Legendary Super Saiyan Broly,6,15,5,Super Warrior Who Destroys All Legendary Super Saiyan Broly.webp,,,,Dokkan,
+14,Super,AGL,True Ultra Instinct Goku (Ultra Instinct),0,20,6,True Ultra Instinct Goku (Ultra Instinct).webp,true,,,Dokkan,
+15,Super,STR,Miracle-Making Final Showdown Goku (GT) & Super Saiyan 4 Vegeta,20,6,0,Miracle-Making Final Showdown Goku (GT) & Super Saiyan 4 Vegeta.webp,,,,Dokkan,
+16,Super,TEQ,Battle Against the Fate of Annihilation Bardock,11,15,0,Battle Against the Fate of Annihilation Bardock.webp,,,,Dokkan,true
+17,Extreme,TEQ,Universe-Devastating Combat Power Broly,11,15,0,Universe-Devastating Combat Power Broly.webp,,,,Carnival,true
+18,Super,PHY,Scattered Reflection of Overflowing Fighting Spirit Super Saiyan Gogeta,6,20,0,Scattered Reflection of Overflowing Fighting Spirit Super Saiyan Gogeta.webp,,,,Carnival,
+19,Super,STR,Indomitable Fighter Super Saiyan Gohan (Future),11,15,0,Indomitable Fighter Super Saiyan Gohan (Future).webp,,,,Carnival,true
+20,Super,AGL,A Soul Pumped Up in Battle Goku,6,20,0,A Soul Pumped Up in Battle Goku.webp,,,,Carnival,true
+21,Super,TEQ,Extraordinary Super Warrior Super Saiyan Goku,11,15,0,Extraordinary Super Warrior Super Saiyan Goku.webp,,,,Carnival,true
+22,Super,STR,Battle Against Limits Goku (Kaioken),11,15,0,Battle Against Limits Goku (Kaioken).webp,true,,true,Legendary,true
+23,Extreme,INT,Saiyan Pride Vegeta/Goku,15,6,5,Saiyan Pride VegetaGoku.webp,,,,Legendary,true
+24,Super,INT,Full-Tilt Kamehameha Super Saiyan 2 Gohan (Youth),0,15,11,Full-Tilt Kamehameha Super Saiyan 2 Gohan (Youth).webp,false,true,true,Legendary,true
+25,Super,PHY,Saiyan Warriors with Ultimate Power Super Saiyan 4 Goku & Super Saiyan 4 Vegeta,6,20,0,Saiyan Warriors with Ultimate Power Super Saiyan 4 Goku & Super Saiyan 4 Vegeta.webp,true,,true,Dokkan,
+26,Super,PHY,Fierce Clash of Burning Power Super Saiyan Goku & Super Saiyan Gohan (Youth) & Super Saiyan Trunks (Teen),15,11,0,Fierce Clash of Burning Power Super Saiyan Goku & Super Saiyan Gohan (Youth) & Super Saiyan Trunks (Teen).webp,,,,Dokkan,
+27,Extreme,AGL,Surge of Heightened Fighting Spirit Super Saiyan Broly,15,11,0,Surge of Heightened Fighting Spirit Super Saiyan Broly.webp,,,,Dokkan,true
+28,Super,PHY,Universe's Last Hope Super Saiyan 3 Goku & Super Saiyan 2 Vegeta,15,11,0,Universe's Last Hope Super Saiyan 3 Goku & Super Saiyan 2 Vegeta.webp,,,,Dokkan,
+29,Super,INT,Strike of Full Anger Super Saiyan Goku,6,15,5,Strike of Full Anger Super Saiyan Goku.webp,true,,,Dokkan,true
+30,Super,INT,True Warrior Race Super Saiyan God SS Evolved Vegeta,0,15,11,True Warrior Race Super Saiyan God SS Evolved Vegeta.webp,true,,,Dokkan,
+31,Super,STR,Fused Hope Goku & Vegeta (Angel),11,15,0,Fused Hope Goku & Vegeta (Angel).webp,true,,,Dokkan,
+32,Super,AGL,All-Out Final Battle Super Saiyan God SS Goku & Super Saiyan God SS Vegeta,6,20,0,All-Out Final Battle Super Saiyan God SS Goku & Super Saiyan God SS Vegeta.webp,,,,Dokkan,
+33,Super,STR,All-Out Super Attack Super Saiyan Gohan (Teen),11,15,0,All-Out Super Attack Super Saiyan Gohan (Teen).webp,,,,Carnival,true
+34,Super,INT,Radiantly Shining Heroes Gamma 1 & Gamma 2/Gamma 1,6,15,5,Radiantly Shining Heroes Gamma 1 & Gamma 2Gamma 1.webp,,,,Carnival,
+35,Super,PHY,Hope at the End of a Deadly Showdown Super Saiyan Trunks (Future),15,11,0,Hope at the End of a Deadly Showdown Super Saiyan Trunks (Future).webp,,,,Carnival,true
+36,Super,INT,Beyond the Shining Clouds Gohan (Kid),15,6,5,Beyond the Shining Clouds Gohan (Kid).webp,,,,Carnival,true
+37,Extreme,PHY,Infinite Terror Metal Cooler,15,11,0,Infinite Terror Metal Cooler.webp,,,,Carnival,true
+38,Extreme,TEQ,Furious Last Resort Vegeta (Giant Ape),20,6,0,Furious Last Resort Vegeta (Giant Ape).webp,true,,true,Legendary,true
+39,Extreme,PHY,Boiling Evil Super Janemba,6,20,0,Boiling Evil Super Janemba.webp,true,,,Legendary,
+40,Super,AGL,Dilemma on the Battlefield Krillin & Gohan (Kid),15,11,0,Dilemma on the Battlefield Krillin & Gohan (Kid).webp,true,,,Legendary,
+41,Super,INT,Battle for the Dragon Balls in the Demon Realm Super Saiyan Goku (Mini) (DAIMA),15,6,5,Battle for the Dragon Balls in the Demon Realm Super Saiyan Goku (Mini) (DAIMA).webp,,,,Dokkan,
+42,Super,AGL,Pressed-for-Time Showdown Super Saiyan 3 Goku (Angel),6,20,0,Pressed-for-Time Showdown Super Saiyan 3 Goku (Angel).webp,,,,Dokkan,true
+43,Super,PHY,Awakened Super Hero Ultimate Gohan,6,20,0,Awakened Super Hero Ultimate Gohan.webp,,,,Dokkan,true
+44,Super,PHY,Battle to Protect Tomorrow Super Saiyan 2 Goku,6,20,0,Battle to Protect Tomorrow Super Saiyan 2 Goku.webp,true,,,Dokkan,true
+45,Extreme,INT,Terrifying Phantom Majin Hirudegarn,6,15,5,Terrifying Phantom Majin Hirudegarn.webp,,,,Dokkan,
+46,Extreme,INT,Death Match for World Domination Piccolo Jr. (Giant Form),6,15,5,Death Match for World Domination Piccolo Jr. (Giant Form).webp,,,,Dokkan,
+47,Extreme,TEQ,Otherworld in Collapse Janemba,20,6,0,Otherworld in Collapse Janemba.webp,,,,Dokkan,
+48,Super,PHY,Wielder of Thunder Magic Glorio,15,11,0,Wielder of Thunder Magic Glorio.webp,,,,Dokkan,
+49,Super,TEQ,Exploding Latent Power Piccolo (Power Awakening),20,6,0,Exploding Latent Power Piccolo (Power Awakening).webp,,,,Dokkan,
+50,Extreme,STR,Majin of Destruction Buu (Kid),11,15,0,Majin of Destruction Buu (Kid).webp,true,,,Dokkan,
+51,Extreme,INT,The Awakened Ego and Joy of Combat Majin Buu (Good),6,15,5,The Awakened Ego and Joy of Combat Majin Buu (Good).webp,,,,Dokkan,true
+52,Super,TEQ,Showdown for the World's Strongest Goku,11,15,0,Showdown for the World's Strongest Goku.webp,,,,Dokkan,true
+53,Super,AGL,Righteous Otherworld Defense Paikuhan,6,20,0,Righteous Otherworld Defense Paikuhan.webp,,,,Dokkan,true
+54,Super,TEQ,Audacious Finish Super Saiyan 3 Gotenks,11,15,0,Audacious Finish Super Saiyan 3 Gotenks.webp,,,,Carnival,true
+55,Super,AGL,Furious Finish Super Saiyan Gotenks,6,20,0,Furious Finish Super Saiyan Gotenks.webp,true,,,Rare,
+56,Super,PHY,Overconfident Challenge Gotenks,6,20,0,Overconfident Challenge Gotenks.webp,,,,Rare,true
+57,Super,INT,Power in Full Force Super Saiyan Goten (Kid),6,11,5,Power in Full Force Super Saiyan Goten (Kid).webp,true,,,Rare,true
+58,Super,TEQ,Mustered Power Super Saiyan Trunks (Kid),11,15,0,Mustered Power Super Saiyan Trunks (Kid).webp,true,,,Rare,true
+59,Super,TEQ,Indomitable Fighting Spirit Super Saiyan 2 Vegeta,20,6,0,Indomitable Fighting Spirit Super Saiyan 2 Vegeta.webp,true,,,Dokkan,
+60,Super,INT,Rousing Fighting Spirit Super Saiyan 2 Goku (Angel),0,15,11,Rousing Fighting Spirit Super Saiyan 2 Goku (Angel).webp,true,,,Dokkan,
+61,Extreme,STR,Evil-Stained Androids Android #17 & Hell Fighter #17,11,15,0,Evil-Stained Androids Android 17 & Hell Fighter 17.webp,,,,Dokkan,
+62,Super,INT,Universe's Bravest Hercule,0,15,11,Universe's Bravest Hercule.webp,true,,,Rare,true
+63,Super,PHY,A Promise Made to Kakarot Super Saiyan 2 Vegeta (Angel),15,11,0,A Promise Made to Kakarot Super Saiyan 2 Vegeta (Angel).webp,true,,,Legendary,true
+64,Super,AGL,Solitary Iron Wall of Power Jiren,6,20,0,Solitary Iron Wall of Power Jiren.webp,,,,Carnival,true
+65,Extreme,TEQ,The Dispelled Evil Heart Majin Buu (Pure Evil),11,15,0,The Dispelled Evil Heart Majin Buu (Pure Evil).webp,,,,Rare,
+66,Super,STR,A God Praying for Peace Grand Supreme Kai,11,15,0,A God Praying for Peace Grand Supreme Kai.webp,,,,Rare,
+67,Extreme,TEQ,Application of Skills and Intelligence Majin Buu (Ultimate Gohan),11,15,0,Application of Skills and Intelligence Majin Buu (Ultimate Gohan).webp,,,,Dokkan,
+68,Extreme,TEQ,Awakening of the Prince Vegeta,20,6,0,Awakening of the Prince Vegeta.webp,,,,Dokkan,true
+69,Extreme,AGL,Decisive Strike of Rebellion Vegeta,15,11,0,Decisive Strike of Rebellion Vegeta.webp,,,,Dokkan,true
+70,Extreme,INT,Elimination of the Traitor Cui,6,15,5,Elimination of the Traitor Cui.webp,,,,Rare,
+71,Super,AGL,Genius Scientist's Courage and Resolve Android #21 (Normal),15,11,0,Genius Scientist's Courage and Resolve Android 21 (Normal).webp,,,,Dokkan,true
+72,Extreme,PHY,Demonic Fighter Wielding Forbidden Power Turles,6,20,0,Demonic Fighter Wielding Forbidden Power Turles.webp,,,,Dokkan,true
+73,Super,PHY,Limitless Combat Power Super Saiyan Vegeta,15,11,0,Limitless Combat Power Super Saiyan Vegeta.webp,true,,,Dokkan,true
+74,Super,STR,Pinnacle of Fury Goku,11,15,0,Pinnacle of Fury Goku.webp,true,,,Dokkan,true
+75,Extreme,PHY,Emperor's Devotion Frieza (Full Power),15,11,0,Emperor's Devotion Frieza (Full Power).webp,false,true,,Dokkan,
+76,Super,INT,Divine Combat Begins Super Saiyan God SS Goku/Super Saiyan God SS Vegeta,6,15,5,Divine Combat Begins Super Saiyan God SS GokuSuper Saiyan God SS Vegeta.webp,,,,Dokkan,
+77,Super,STR,Tenacious Secret Plan Super Vegeta,0,15,6,Tenacious Secret Plan Super Vegeta.webp,true,,,Dokkan,true
+78,Super,STR,Zealous Roar Super Saiyan Goku,11,15,0,Zealous Roar Super Saiyan Goku.webp,true,,,Rare,true
+79,Super,PHY,Furious Instincts Great Saiyaman (SS2),6,20,0,Furious Instincts Great Saiyaman (SS2).webp,true,,,Rare,
+80,Super,PHY,Determined to Fight Goku (Kaioken),15,11,0,Determined to Fight Goku (Kaioken).webp,,,,Rare,true
+81,Super,TEQ,Tide-Turning Super Power Gohan (Kid)/Piccolo,11,15,0,Tide-Turning Super Power Gohan (Kid)Piccolo.webp,,,,Legendary,true
+82,Super,AGL,Magnificent Ultimate Battle Ultimate Gohan,15,11,0,Magnificent Ultimate Battle Ultimate Gohan.webp,,,,Legendary,true
+83,Super,INT,Wise Warrior Piccolo,15,6,5,Wise Warrior Piccolo.webp,true,,,Rare,true
+84,Super,AGL,Earnest Determination Nail,6,20,0,Earnest Determination Nail.webp,true,,,Rare,
+85,Extreme,INT,Unprecedented Elite Team Captain Ginyu (Ginyu Force),6,15,5,Unprecedented Elite Team Captain Ginyu (Ginyu Force).webp,,,,Legendary,true
+86,Extreme,AGL,Earth-Piercing Light Frieza (Final Form),15,11,0,Earth-Piercing Light Frieza (Final Form).webp,,,,Rare,true
+87,Extreme,STR,Catastrophic Rage Frieza (Final Form),20,6,0,Catastrophic Rage Frieza (Final Form).webp,,,,Rare,true
+88,Super,STR,Next-Generation-Guiding Turtle School Master Roshi,11,15,0,Next-Generation-Guiding Turtle School Master Roshi.webp,,,,Dokkan,true
+89,Super,STR,Ally of Love and Friendship Videl,11,15,0,Ally of Love and Friendship Videl.webp,true,,,Dokkan,true
+90,Super,AGL,Adventurous Girl's Love at First Sight Bulma (Bunny),15,11,0,Adventurous Girl's Love at First Sight Bulma (Bunny).webp,,,,Rare,
+91,Super,PHY,Quest for the Dragon Balls Goku (Youth),6,20,0,Quest for the Dragon Balls Goku (Youth).webp,,,,Dokkan,true
+92,Super,PHY,Fighter Entrusted with Allies' Wishes Super Saiyan God Goku,15,11,0,Fighter Entrusted with Allies' Wishes Super Saiyan God Goku.webp,,,,Dokkan,true
+93,Extreme,AGL,Beautiful Final View Frieza (1st Form),6,20,0,Beautiful Final View Frieza (1st Form).webp,,,,Dokkan,true
+94,Super,INT,Earth's Dominant Elite Yamcha,6,15,5,Earth's Dominant Elite Yamcha.webp,,,,Dokkan,true
+95,Super,TEQ,Super Power Counterattack Super Saiyan Trunks (Teen),11,15,0,Super Power Counterattack Super Saiyan Trunks (Teen).webp,,,,Dokkan,
+96,Super,AGL,Resilient Power of Emotions Kale (Berserk),15,11,0,Resilient Power of Emotions Kale (Berserk).webp,,,,Dokkan,
+97,Extreme,STR,Murderous Overlord Boujack,11,15,0,Murderous Overlord Boujack.webp,true,,,Dokkan,
+98,Extreme,STR,Extreme Ultimate Power Cooler,11,15,0,Extreme Ultimate Power Cooler.webp,true,,,Dokkan,true
+99,Super,PHY,Kami and Demon King United Piccolo,6,20,0,Kami and Demon King United Piccolo.webp,true,,,Dokkan,true
+100,Super,TEQ,Devastating Punishment Beerus,11,15,0,Devastating Punishment Beerus.webp,false,true,,Dokkan,true
+101,Extreme,INT,Eerie Invaders Angila & Medamatcha,15,6,5,Eerie Invaders Angila & Medamatcha.webp,,,,Rare,
+102,Extreme,STR,Terrifying Super Namekian Lord Slug,20,6,0,Terrifying Super Namekian Lord Slug.webp,,,,Dokkan,true
+103,Super,STR,Epic Defensive Battle Piccolo & Gohan (Kid)/Gohan (Kid),11,15,0,Epic Defensive Battle Piccolo & Gohan (Kid)Gohan (Kid).webp,,,,Dokkan,true
+104,Super,STR,Darkness-Purging Universe Tree Power Super Saiyan God SS Goku (Universe Tree Power),11,15,0,Darkness-Purging Universe Tree Power Super Saiyan God SS Goku (Universe Tree Power).webp,,,,Crossover,
+105,Super,PHY,Enigmatic Fighter Warrior in Black (Super Saiyan) (Dark Dragon Ball Boost),6,20,0,Enigmatic Fighter Warrior in Black (Super Saiyan) (Dark Dragon Ball Boost).webp,,,,Crossover,
+106,Extreme,INT,Space-Time Selector Aeos,15,6,5,Space-Time Selector Aeos.webp,,,,Crossover,
+107,Extreme,AGL,Dark Barrier That Isolates All Fu (Youth) (Dogidogi Fully Absorbed),6,20,0,Dark Barrier That Isolates All Fu (Youth) (Dogidogi Fully Absorbed).webp,,,,Crossover,
+108,Extreme,TEQ,Creation of a Dark World Dark King Demigra (Power of Time Unleashed),11,15,0,Creation of a Dark World Dark King Demigra (Power of Time Unleashed).webp,,,,Crossover,
+109,Super,STR,Earth-Shaking Immense Power Super Saiyan Goku,20,6,0,Earth-Shaking Immense Power Super Saiyan Goku.webp,,,,Carnival,true
+110,Extreme,STR,Ultimate Weapon That Wreaks Destruction and Doom Cell Max,11,15,0,Ultimate Weapon That Wreaks Destruction and Doom Cell Max.webp,,,,Legendary,
+111,Extreme,AGL,The Ultimate Shadow Dragon Omega Shenron,15,11,0,The Ultimate Shadow Dragon Omega Shenron.webp,,,,Carnival,
+112,Extreme,TEQ,Fiendish Intellect and Strength Baby,11,15,0,Fiendish Intellect and Strength Baby.webp,,,,Rare,
+113,Super,STR,Counterattack of Humanity's Survivors Mai (Future),6,15,0,Counterattack of Humanity's Survivors Mai (Future).webp,,,,Rare,true
+114,Extreme,PHY,Rebellion Against Divine Justice Zamasu,6,20,0,Rebellion Against Divine Justice Zamasu.webp,,,,Rare,true
+115,Super,INT,Universe 7's All-Out Offensive Android #17 (Team Universe 7),6,15,5,Universe 7's All-Out Offensive Android 17 (Team Universe 7).webp,true,,,Legendary,true
+116,Extreme,PHY,Very Last Possibility Golden Frieza (Angel) & Android #17,6,20,0,Very Last Possibility Golden Frieza (Angel) & Android 17.webp,true,,,Legendary,true
+117,Super,PHY,Determination to Protect Universe 11 Toppo,6,20,0,Determination to Protect Universe 11 Toppo.webp,,,,Dokkan,
+118,Super,INT,Greatest Evolution of Power Super Saiyan 4 Goku,6,15,5,Greatest Evolution of Power Super Saiyan 4 Goku.webp,,,,Dokkan,
+119,Super,PHY,Beyond Boundless Power Super Saiyan God SS Goku (Kaioken) & Super Saiyan God SS Evolved Vegeta,6,20,0,Beyond Boundless Power Super Saiyan God SS Goku (Kaioken) & Super Saiyan God SS Evolved Vegeta.webp,true,,,Dokkan,
+120,Super,TEQ,Power Beyond the Extremes Gohan (Teen),11,15,0,Power Beyond the Extremes Gohan (Teen).webp,true,,,Dokkan,true
+121,Super,INT,Heroic Warrior Gohan (Future),6,15,5,Heroic Warrior Gohan (Future).webp,true,,,Dokkan,true
+122,Super,INT,Intense Struggle for Survival Androids #17 & #18,6,15,5,Intense Struggle for Survival Androids 17 & 18.webp,,,,Dokkan,
+123,Super,AGL,Transcendent Fusion Super Saiyan Gogeta,6,20,0,Transcendent Fusion Super Saiyan Gogeta.webp,true,,,Dokkan,
+124,Extreme,PHY,Endless Evolution of the Warrior Race Super Saiyan Broly,15,11,0,Endless Evolution of the Warrior Race Super Saiyan Broly.webp,true,,,Dokkan,true
+125,Super,TEQ,Ultimate Mode Change Catopesra,11,15,0,Ultimate Mode Change Catopesra.webp,,,,Rare,
+126,Super,TEQ,Fearless Charge Videl,11,15,0,Fearless Charge Videl.webp,,,,Rare,true
+127,Extreme,STR,Planet-Crushing Blow Cooler (Final Form),20,6,0,Planet-Crushing Blow Cooler (Final Form).webp,,,,Dokkan,
+128,Super,STR,Absolute Power Jiren,11,15,0,Absolute Power Jiren.webp,true,,,Dokkan,true
+129,Super,PHY,Pint-Sized Super Warriors Super Saiyan Trunks (Kid) & Super Saiyan Goten (Kid),0,20,6,Pint-Sized Super Warriors Super Saiyan Trunks (Kid) & Super Saiyan Goten (Kid).webp,true,,,Dokkan,
+130,Extreme,STR,Super Warrior of Destruction Legendary Super Saiyan Broly,5,15,6,Super Warrior of Destruction Legendary Super Saiyan Broly.webp,false,true,,Dokkan,
+131,Extreme,TEQ,Nightmarish Impact Super Saiyan Broly,20,6,0,Nightmarish Impact Super Saiyan Broly.webp,true,,,Legendary,true
+132,Super,TEQ,Golden Fist Super Saiyan 3 Goku,20,6,0,Golden Fist Super Saiyan 3 Goku.webp,true,,,Legendary,true
+133,Super,STR,Parents' Guidance Bardock & Gine,11,15,0,Parents' Guidance Bardock & Gine.webp,true,,,Rare,true
+134,Super,INT,All-Out Ultimate Battle Super Saiyan Goku & Super Saiyan Vegeta & Super Saiyan Trunks (Teen),6,15,5,All-Out Ultimate Battle Super Saiyan Goku & Super Saiyan Vegeta & Super Saiyan Trunks (Teen).webp,,,,Carnival,
+135,Extreme,PHY,A New Life on Vampa Broly & Cheelai & Lemo,15,11,0,A New Life on Vampa Broly & Cheelai & Lemo.webp,true,,,Legendary,true
+136,Extreme,AGL,Swirling Ambition Turles (Giant Ape),6,20,0,Swirling Ambition Turles (Giant Ape).webp,true,,,Rare,
+137,Extreme,STR,Unparalleled Force of Evil Turles,11,15,0,Unparalleled Force of Evil Turles.webp,,,,Legendary,true
+138,Extreme,INT,Troublesome Father and Son Paragus & Broly,6,15,5,Troublesome Father and Son Paragus & Broly.webp,true,,,Rare,true
+139,Super,AGL,Flaring Battle Impulse Super Saiyan God Goku,6,20,0,Flaring Battle Impulse Super Saiyan God Goku.webp,true,,,Rare,true
+140,Super,PHY,Resolve to Challenge Powerful Foes Piccolo/Super Saiyan Vegeta,6,20,0,Resolve to Challenge Powerful Foes PiccoloSuper Saiyan Vegeta.webp,,,,Rare,true
+141,Super,AGL,Full-Power Final Showdown Super Saiyan Goku & Super Saiyan Vegeta,6,20,0,Full-Power Final Showdown Super Saiyan Goku & Super Saiyan Vegeta.webp,,,,Dokkan,
+142,Extreme,INT,Instinctive Destruction Legendary Super Saiyan Broly,6,15,5,Instinctive Destruction Legendary Super Saiyan Broly.webp,true,,,Dokkan,
+143,Super,AGL,Mystery Super Technique Super Saiyan 3 Goku,6,20,0,Mystery Super Technique Super Saiyan 3 Goku.webp,false,true,,Dokkan,
+144,Super,STR,Imperturbable Hero Gamma 1,11,15,0,Imperturbable Hero Gamma 1.webp,,,,Dokkan,true
+145,Super,AGL,Fearless Hero Gamma 2,6,20,0,Fearless Hero Gamma 2.webp,,,,Dokkan,true
+146,Super,TEQ,Transcendent Divine Power Goku (Ultra Instinct -Sign-),11,15,0,Transcendent Divine Power Goku (Ultra Instinct -Sign-).webp,,,,Dokkan,true
+147,Super,STR,Pride of the Super-Speed Warrior Dyspo,11,15,0,Pride of the Super-Speed Warrior Dyspo.webp,,,,Rare,
+148,Extreme,PHY,Mastery of the Power of Rage Goku Black (Super Saiyan Rosé),15,11,0,Mastery of the Power of Rage Goku Black (Super Saiyan Rosé).webp,,,,Dokkan,
+149,Super,INT,Power of Pride and Hope Super Saiyan God SS Vegeta & Super Saiyan Trunks (Future),6,15,5,Power of Pride and Hope Super Saiyan God SS Vegeta & Super Saiyan Trunks (Future).webp,,,,Dokkan,
+150,Extreme,PHY,Invincible Absorption Majin Buu (Gotenks),15,11,0,Invincible Absorption Majin Buu (Gotenks).webp,true,,,Dokkan,
+151,Super,STR,Final Super Power Super Saiyan God SS Goku (Kaioken),20,6,0,Final Super Power Super Saiyan God SS Goku (Kaioken).webp,true,,,Dokkan,
+152,Super,TEQ,Miracle-Calling Clash Super Saiyan Gohan (Teen) & Super Saiyan Goten (Kid),20,6,0,Miracle-Calling Clash Super Saiyan Gohan (Teen) & Super Saiyan Goten (Kid).webp,true,,,Dokkan,true
+153,Extreme,TEQ,Surpassing All Perfect Cell,11,15,0,Surpassing All Perfect Cell.webp,false,true,true,Dokkan,
+154,Extreme,INT,Cruel Death Sentence Dodoria,6,15,5,Cruel Death Sentence Dodoria.webp,,,,Rare,
+155,Super,AGL,Battle to Defend the Dignity of Mankind Super Saiyan 2 Trunks (Future),6,20,0,Battle to Defend the Dignity of Mankind Super Saiyan 2 Trunks (Future).webp,,,,Rare,
+156,Super,AGL,Raging Counterattack Bardock,6,20,0,Raging Counterattack Bardock.webp,true,,,Dokkan,true
+157,Extreme,TEQ,Split Into Good and Evil Majin Buu (Good)/Majin Buu (Pure Evil),14,12,0,Split Into Good and Evil Majin Buu (Good)Majin Buu (Pure Evil).webp,true,,,Dokkan,true
+158,Extreme,AGL,Emperor's Newfound Power Golden Frieza,15,11,0,Emperor's Newfound Power Golden Frieza.webp,,,,Legendary,true
+159,Super,INT,Light That Defends the Green Planet Goku,15,6,5,Light That Defends the Green Planet Goku.webp,,,,Legendary,true
+160,Super,STR,Fighter's Self-Awareness Super Saiyan Gohan (Youth),20,6,0,Fighter's Self-Awareness Super Saiyan Gohan (Youth).webp,,,,Rare,true
+161,Extreme,INT,Joint Battlefield Disruption Amond & Rasin,15,6,5,Joint Battlefield Disruption Amond & Rasin.webp,,,,Rare,
+162,Extreme,AGL,No One Escapes Daiz & Cacao,6,20,0,No One Escapes Daiz & Cacao.webp,,,,Rare,
+163,Super,TEQ,Greatest Instant Combat Power Born of Love Super Saiyan Vegeta,11,15,0,Greatest Instant Combat Power Born of Love Super Saiyan Vegeta.webp,,,,Rare,true
+164,Super,AGL,Unusual Pairing Super Saiyan 3 Gotenks & Piccolo,15,11,0,Unusual Pairing Super Saiyan 3 Gotenks & Piccolo.webp,,,,Rare,
+165,Super,STR,Warrior Race's Resolve Super Saiyan Cabba,11,15,0,Warrior Race's Resolve Super Saiyan Cabba.webp,true,,,Rare,true
+166,Extreme,STR,Evolution to Match Strength Hit,11,15,0,Evolution to Match Strength Hit.webp,true,,,Rare,true
+167,Extreme,STR,Joint Struggle for Survival Golden Frieza (Angel) & Ultimate Gohan,20,6,0,Joint Struggle for Survival Golden Frieza (Angel) & Ultimate Gohan.webp,,,,Rare,true
+168,Super,STR,Love Elevated to the Extremes Zirloin & Rabanra & Zarbuto,11,15,0,Love Elevated to the Extremes Zirloin & Rabanra & Zarbuto.webp,,,,Rare,
+169,Extreme,STR,Demonstration of True Strength Frost (Full Power),11,15,0,Demonstration of True Strength Frost (Full Power).webp,true,,,Rare,
+170,Super,INT,Roar of Rage Gohan (Kid),6,15,5,Roar of Rage Gohan (Kid).webp,true,,,Rare,true
+171,Extreme,INT,Saiyans' Limitless Potential Vegeta,6,15,0,Saiyans' Limitless Potential Vegeta.webp,true,,,Rare,true
+172,Super,INT,Promising New Blood Pan (Kid),6,15,5,Promising New Blood Pan (Kid).webp,,,,Rare,
+173,Super,INT,Saiyan Alliance Tora,15,6,5,Saiyan Alliance Tora.webp,,,,Rare,true
+174,Extreme,INT,Cheerful Scouting Cheelai,6,15,5,Cheerful Scouting Cheelai.webp,,,,Rare,
+175,Extreme,INT,Demon of Destruction and Vengeance Super Garlic Jr.,15,6,5,Demon of Destruction and Vengeance Super Garlic Jr.webp,,,,Rare,
+176,Super,INT,A Promise to Master Super Saiyan Cabba,15,6,5,A Promise to Master Super Saiyan Cabba.webp,,,,Rare,true
+177,Super,AGL,Victorious Smile Pan (GT),6,20,0,Victorious Smile Pan (GT).webp,true,,,Rare,
+178,Extreme,AGL,Fierce Focused Attack Hyper Meta-Rilldo,6,20,0,Fierce Focused Attack Hyper Meta-Rilldo.webp,true,,,Rare,
+179,Super,AGL,Sworn Friends Trunks (GT) & Goten (GT),15,11,0,Sworn Friends Trunks (GT) & Goten (GT).webp,,,,Rare,
+180,Super,AGL,All-Out Power of Friendship Hacchan,15,11,0,All-Out Power of Friendship Hacchan.webp,,,,Rare,
+181,Super,AGL,Self-Proclaimed Super Elite Jaco,15,11,0,Self-Proclaimed Super Elite Jaco.webp,,,,Rare,
+182,Super,TEQ,All-Out Focus Tien,11,15,0,All-Out Focus Tien.webp,true,,,Rare,true
+183,Extreme,TEQ,Pursuing Perfection Cell (2nd Form),11,15,0,Pursuing Perfection Cell (2nd Form).webp,true,,,Rare,
+184,Super,TEQ,Wimpy Savior Yajirobe,11,15,0,Wimpy Savior Yajirobe.webp,,,,Rare,
+185,Super,TEQ,Strength Concentrated on the Fists Krillin & Gohan (Youth),11,15,0,Strength Concentrated on the Fists Krillin & Gohan (Youth).webp,,,,Rare,
+186,Super,TEQ,Victor of the Future Super Saiyan Trunks (Future),11,15,0,Victor of the Future Super Saiyan Trunks (Future).webp,true,,,Rare,true
+187,Extreme,TEQ,Casual Refreshment Android #18,11,15,0,Casual Refreshment Android 18.webp,true,,,Rare,true
+188,Extreme,INT,Eerie Sense of Despair Frieza (3rd Form),6,15,0,Eerie Sense of Despair Frieza (3rd Form).webp,,,,Rare,
+189,Extreme,AGL,Sinister Genius Scientist Dr. Wheelo,9,17,0,Sinister Genius Scientist Dr. Wheelo.webp,,,,F2p,
+190,Extreme,STR,Reign of Terror Frieza (1st Form),20,6,0,Reign of Terror Frieza (1st Form).webp,true,,,F2p,
+191,Super,TEQ,Everlasting Legend Super Saiyan Goku,5,15,6,Everlasting Legend Super Saiyan Goku.webp,false,true,,F2p,
+192,Extreme,INT,Awakened Saiyan Blood Super Saiyan Vegeta,15,6,5,Awakened Saiyan Blood Super Saiyan Vegeta.webp,true,,,F2p,
+193,Super,AGL,Alternate Ending Super Saiyan Trunks (Future),15,11,0,Alternate Ending Super Saiyan Trunks (Future).webp,true,,,F2p,
+194,Super,PHY,Raging Killer Move Krillin,15,11,0,Raging Killer Move Krillin.webp,true,,,F2p,
+195,Extreme,PHY,Terrifying Biotechnology Bio-Broly,6,20,0,Terrifying Biotechnology Bio-Broly.webp,true,,,F2p,
+196,Extreme,TEQ,Life Form of Hate and Ruin Cell (1st Form),11,15,0,Life Form of Hate and Ruin Cell (1st Form).webp,true,,,F2p,
+197,Extreme,PHY,Worldwide Terror Babidi & Majin Buu (Good),15,11,0,Worldwide Terror Babidi & Majin Buu (Good).webp,true,,,F2p,
+198,Super,INT,The Last Tri-Beam Tien,15,6,5,The Last Tri-Beam Tien.webp,,,,F2p,
+199,Super,STR,Power in a Pinch Gohan (Kid),11,15,0,Power in a Pinch Gohan (Kid).webp,true,,,F2p,
+200,Extreme,PHY,Storm of Terror Frieza (2nd Form),20,0,0,Storm of Terror Frieza (2nd Form).webp,true,,,F2p,
+201,Extreme,AGL,Demon King's Great Wish Demon King Piccolo (Elder),6,20,0,Demon King's Great Wish Demon King Piccolo (Elder).webp,,,true,F2p,
+202,Super,PHY,Companion from the Old Days Goku (Mini) (DAIMA),6,20,0,Companion from the Old Days Goku (Mini) (DAIMA).webp,,,true,F2p,
+203,Super,STR,Fight to Protect Pride and Keep Oaths Super Saiyan God SS Evolved Vegeta,11,15,0,Fight to Protect Pride and Keep Oaths Super Saiyan God SS Evolved Vegeta.webp,,,true,Carnival,
+204,Super,AGL,Ultimate Saiyan Power Roar Super Saiyan 3 Goku (GT) (Golden Giant Ape),20,0,6,Ultimate Saiyan Power Roar Super Saiyan 3 Goku (GT) (Golden Giant Ape).webp,,,true,Carnival,
+205,Super,STR,Kind-Hearted Champion Hercule,15,11,0,Kind-Hearted Champion Hercule.webp,,,true,Rare,true
+206,Super,TEQ,Incomparable Radiance Super Saiyan Goku + Super Saiyan Vegeta (Angel),15,11,0,Incomparable Radiance Super Saiyan Goku + Super Saiyan Vegeta (Angel).webp,,,true,Dokkan,true
+207,Extreme,INT,Universe 7's Final Will to Fight Frieza (Final Form) (Angel) + Goku,6,15,0,Universe 7's Final Will to Fight Frieza (Final Form) (Angel) + Goku.webp,,,true,Carnival,true
+208,Super,AGL,Unprecedented Miracle Super Saiyan Vegeta (Angel) + Super Saiyan Goku (Angel),6,20,0,Unprecedented Miracle Super Saiyan Vegeta (Angel) + Super Saiyan Goku (Angel).webp,false,,true,Dokkan,true
+209,Super,PHY,Fighter Entrusted with Fate Super Saiyan 2 Gohan (Youth),15,11,0,Fighter Entrusted with Fate Super Saiyan 2 Gohan (Youth).webp,,,true,Carnival,true
+210,Super,AGL,Chaos Brought by the God of Destruction Beerus,6,20,0,Chaos Brought by the God of Destruction Beerus.webp,,,true,Rare,true
+211,Super,PHY,Breathing and Timing in Unison Trunks (Kid) + Goten (Kid),15,11,0,Breathing and Timing in Unison Trunks (Kid) + Goten (Kid).webp,,,true,F2p,
+212,Super,PHY,Super Saiyan 3 Vegeta (Mini) (DAIMA),15,11,0,Super Saiyan 3 Vegeta (Mini) (DAIMA).webp,,,true,Dokkan,false
+213,Super,STR,Warrior's True Value Super Saiyan 3 Vegeta,11,15,0,Warrior's True Value Super Saiyan 3 Vegeta.webp,false,true,true,Dokkan,false
+214,Super,PHY,Battle to Become the Strongest Super Saiyan Goku (GT),6,20,0,Battle to Become the Strongest Super Saiyan Goku (GT).webp,true,,true,Dokkan,true
+215,Super,INT,Battle to Reach the Top Super Saiyan Vegeta (GT),6,15,5,Battle to Reach the Top Super Saiyan Vegeta (GT).webp,true,,true,Dokkan,false
