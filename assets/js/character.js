@@ -68,9 +68,9 @@ $(document).ready(function () {
                         <div class="bg-gray-50 rounded-lg p-3 flex flex-col items-center text-center">
                         <h2 class="font-semibold text-sm mb-1">EZA</h2>
                         ${character.seza ? `
-                            <img src="../img/seza.webp" alt="SEZA" class="w-30 h-15 -bottom-2 -right-6">
+                            <img src="../img/super_extreme_z_awaken.webp" alt="SEZA" class="w-30 h-15 -bottom-2 -right-6">
                         ` : character.eza ? `
-                            <img src="../img/EZA.webp" alt="EZA" class="w-8 h-8 -bottom-10 -right-1 ">
+                            <img src="../img/extreme_z_awaken.webp" alt="EZA" class="w-15 h-12 -bottom-10 -right-1 ">
                         ` : 'None'}
                         </div>
                     </div>
