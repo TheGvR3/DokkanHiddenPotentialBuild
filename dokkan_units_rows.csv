@@ -214,3 +214,31 @@ id,category,type,name,crit,add,esc,image,eza,seza,new,pull,farmable
 213,Super,STR,Warrior's True Value Super Saiyan 3 Vegeta,11,15,0,Warrior's True Value Super Saiyan 3 Vegeta.webp,false,true,true,Dokkan,false
 214,Super,PHY,Battle to Become the Strongest Super Saiyan Goku (GT),6,20,0,Battle to Become the Strongest Super Saiyan Goku (GT).webp,true,,true,Dokkan,true
 215,Super,INT,Battle to Reach the Top Super Saiyan Vegeta (GT),6,15,5,Battle to Reach the Top Super Saiyan Vegeta (GT).webp,true,,true,Dokkan,false
+216,Extreme,AGL,Unstoppable Evolution Ahms (3rd Form),15,11,0,Unstoppable Evolution Ahms (3rd Form).webp,true,,,F2p,
+217,Extreme,TEQ,Tragedy Born From Power Fusion Android #13,20,6,0,Tragedy Born From Power Fusion Android 13.webp,,,,F2p,
+218,Extreme,AGL,Foe Elimination Circuit Android #13,15,11,0,Foe Elimination Circuit Android 13.webp,true,,,Dokkan,true
+219,Extreme,STR,Ruthless Android Android #13,11,15,0,Ruthless Android Android 13.webp,true,,,Baba,true
+220,Extreme,TEQ,Treasured Battle Device Android #16,15,6,5,Treasured Battle Device Android 16.webp,true,,,F2p,
+221,Super,TEQ,New Form and Resolve Android #16,11,15,0,New Form and Resolve Android 16.webp,true,,,Rare,true
+222,Super,INT,Newly Acquired Chance Android #16,0,15,11,Newly Acquired Chance Android 16.webp,true,,,Rare,true
+223,Extreme,TEQ,Followers of His Ideals Zarbon & Dodoria,20,6,0,Followers of His Ideals Zarbon & Dodoria.webp,true,,,F2p,
+224,Extreme,AGL,Merciless Swift Strike Zangya,15,11,0,Merciless Swift Strike Zangya.webp,,,,Rare,
+225,Extreme,TEQ,Evil Paralysis Zangya,20,6,0,Evil Paralysis Zangya.webp,,,,Rare,
+226,Extreme,STR,Dawn of Darkest Justice Zamasu (Goku),20,6,0,Dawn of Darkest Justice Zamasu (Goku).webp,true,,,F2p,
+227,Extreme,AGL,True Power of a God Zamasu,6,20,0,True Power of a God Zamasu.webp,true,,,Dokkan,true
+228,Extreme,INT,Utopia Realized Zamasu,6,15,5,Utopia Realized Zamasu.webp,true,,,Rare,true
+229,Extreme,STR,God of Defiance Zamasu,20,6,0,God of Defiance Zamasu.webp,true,,,Rare,true
+230,Super,TEQ,Vengeful Witchcraft Yurin,20,6,0,Vengeful Witchcraft Yurin.webp,,,,F2p,
+231,Extreme,AGL,Creeping Conspiracy Yamu & Spopovich,15,11,0,Creeping Conspiracy Yamu & Spopovich.webp,true,,,F2p,
+232,Super,PHY,Astounding Fusion Technique Yamhan,15,11,0,Astounding Fusion Technique Yamhan.webp,true,,,F2p,
+233,Super,INT,Fierce Declaration of War Yamcha,15,6,5,Fierce Declaration of War Yamcha.webp,,,,F2p,
+234,Super,STR,Confidence-Boosting Martial Arts Yamcha,17,9,0,Confidence-Boosting Martial Arts Yamcha.webp,,,,F2p,
+235,Super,STR,Predatory Wolf of the Gale Yamcha,20,6,0,Predatory Wolf of the Gale Yamcha.webp,true,,,F2p,
+236,Super,STR,Optimistic Warrior Yamcha,20,6,0,Optimistic Warrior Yamcha.webp,,,,Limited,true
+237,Super,TEQ,Imaginative Technique Yamcha,11,15,0,Imaginative Technique Yamcha.webp,,,,Baba,true
+238,Super,TEQ,Containment with Special Technique Yamcha,11,15,0,Containment with Special Technique Yamcha.webp,,,,Tournament,true
+239,Super,TEQ,Absolute Loss Yamcha,20,6,0,Absolute Loss Yamcha.webp,,,,F2p,
+240,Super,AGL,Wounded Honor Yamcha,15,11,0,Wounded Honor Yamcha.webp,,,,F2p,
+241,Super,PHY,Lupine Awakening Yamcha & Puar,15,11,0,Lupine Awakening Yamcha & Puar.webp,true,,,Tournament,true
+
+
