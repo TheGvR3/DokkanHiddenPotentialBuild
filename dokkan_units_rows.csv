@@ -45,13 +45,13 @@ id,category,type,name,crit,add,esc,image,eza,seza,new,pull,farmable
 44,Super,PHY,Battle to Protect Tomorrow Super Saiyan 2 Goku,6,20,0,Battle to Protect Tomorrow Super Saiyan 2 Goku.webp,true,,,Dokkan,true
 45,Extreme,INT,Terrifying Phantom Majin Hirudegarn,6,15,5,Terrifying Phantom Majin Hirudegarn.webp,,,,Dokkan,
 46,Extreme,INT,Death Match for World Domination Piccolo Jr. (Giant Form),6,15,5,Death Match for World Domination Piccolo Jr. (Giant Form).webp,,,,Dokkan,
-47,Extreme,TEQ,Otherworld in Collapse Janemba,20,6,0,Otherworld in Collapse Janemba.webp,,,,Dokkan,
+47,Extreme,TEQ,Otherworld in Collapse Janemba,20,6,0,Otherworld in Collapse Janemba.webp,true,,true,Dokkan,
 48,Super,PHY,Wielder of Thunder Magic Glorio,15,11,0,Wielder of Thunder Magic Glorio.webp,,,,Dokkan,
 49,Super,TEQ,Exploding Latent Power Piccolo (Power Awakening),20,6,0,Exploding Latent Power Piccolo (Power Awakening).webp,,,,Dokkan,
 50,Extreme,STR,Majin of Destruction Buu (Kid),11,15,0,Majin of Destruction Buu (Kid).webp,true,,,Dokkan,
 51,Extreme,INT,The Awakened Ego and Joy of Combat Majin Buu (Good),6,15,5,The Awakened Ego and Joy of Combat Majin Buu (Good).webp,,,,Dokkan,true
 52,Super,TEQ,Showdown for the World's Strongest Goku,11,15,0,Showdown for the World's Strongest Goku.webp,,,,Dokkan,true
-53,Super,AGL,Righteous Otherworld Defense Paikuhan,6,20,0,Righteous Otherworld Defense Paikuhan.webp,,,,Dokkan,true
+53,Super,AGL,Righteous Otherworld Defense Paikuhan,6,20,0,Righteous Otherworld Defense Paikuhan.webp,true,,true,Dokkan,true
 54,Super,TEQ,Audacious Finish Super Saiyan 3 Gotenks,11,15,0,Audacious Finish Super Saiyan 3 Gotenks.webp,,,,Carnival,true
 55,Super,AGL,Furious Finish Super Saiyan Gotenks,6,20,0,Furious Finish Super Saiyan Gotenks.webp,true,,,Rare,
 56,Super,PHY,Overconfident Challenge Gotenks,6,20,0,Overconfident Challenge Gotenks.webp,,,,Rare,true
@@ -89,7 +89,7 @@ id,category,type,name,crit,add,esc,image,eza,seza,new,pull,farmable
 88,Super,STR,Next-Generation-Guiding Turtle School Master Roshi,11,15,0,Next-Generation-Guiding Turtle School Master Roshi.webp,,,,Dokkan,true
 89,Super,STR,Ally of Love and Friendship Videl,11,15,0,Ally of Love and Friendship Videl.webp,true,,,Dokkan,true
 90,Super,AGL,Adventurous Girl's Love at First Sight Bulma (Bunny),15,11,0,Adventurous Girl's Love at First Sight Bulma (Bunny).webp,,,,Rare,
-91,Super,PHY,Quest for the Dragon Balls Goku (Youth),6,20,0,Quest for the Dragon Balls Goku (Youth).webp,,,,Dokkan,true
+91,Super,PHY,Quest for the Dragon Balls Goku (Youth),6,20,0,Quest for the Dragon Balls Goku (Youth).webp,true,,true,Dokkan,true
 92,Super,PHY,Fighter Entrusted with Allies' Wishes Super Saiyan God Goku,15,11,0,Fighter Entrusted with Allies' Wishes Super Saiyan God Goku.webp,,,,Dokkan,true
 93,Extreme,AGL,Beautiful Final View Frieza (1st Form),6,20,0,Beautiful Final View Frieza (1st Form).webp,,,,Dokkan,true
 94,Super,INT,Earth's Dominant Elite Yamcha,6,15,5,Earth's Dominant Elite Yamcha.webp,,,,Dokkan,true
@@ -210,7 +210,7 @@ id,category,type,name,crit,add,esc,image,eza,seza,new,pull,farmable
 209,Super,PHY,Fighter Entrusted with Fate Super Saiyan 2 Gohan (Youth),15,11,0,Fighter Entrusted with Fate Super Saiyan 2 Gohan (Youth).webp,,,true,Carnival,true
 210,Super,AGL,Chaos Brought by the God of Destruction Beerus,6,20,0,Chaos Brought by the God of Destruction Beerus.webp,,,true,Rare,true
 211,Super,PHY,Breathing and Timing in Unison Trunks (Kid) + Goten (Kid),15,11,0,Breathing and Timing in Unison Trunks (Kid) + Goten (Kid).webp,,,true,F2p,
-212,Super,PHY,Super Saiyan 3 Vegeta (Mini) (DAIMA),15,11,0,Super Saiyan 3 Vegeta (Mini) (DAIMA).webp,,,true,Dokkan,false
+212,Super,PHY,Thoroughly Refined Strength Super Saiyan 3 Vegeta (Mini) (DAIMA),15,11,0,Thoroughly Refined Strength Super Saiyan 3 Vegeta (Mini) (DAIMA).webp,,,true,Dokkan,false
 213,Super,STR,Warrior's True Value Super Saiyan 3 Vegeta,11,15,0,Warrior's True Value Super Saiyan 3 Vegeta.webp,false,true,true,Dokkan,false
 214,Super,PHY,Battle to Become the Strongest Super Saiyan Goku (GT),6,20,0,Battle to Become the Strongest Super Saiyan Goku (GT).webp,true,,true,Dokkan,true
 215,Super,INT,Battle to Reach the Top Super Saiyan Vegeta (GT),6,15,5,Battle to Reach the Top Super Saiyan Vegeta (GT).webp,true,,true,Dokkan,false
@@ -218,7 +218,7 @@ id,category,type,name,crit,add,esc,image,eza,seza,new,pull,farmable
 217,Extreme,TEQ,Tragedy Born From Power Fusion Android #13,20,6,0,Tragedy Born From Power Fusion Android 13.webp,,,,F2p,
 218,Extreme,AGL,Foe Elimination Circuit Android #13,15,11,0,Foe Elimination Circuit Android 13.webp,true,,,Dokkan,true
 219,Extreme,STR,Ruthless Android Android #13,11,15,0,Ruthless Android Android 13.webp,true,,,Baba,true
-220,Extreme,TEQ,Treasured Battle Device Android #16,15,6,5,Treasured Battle Device Android 16.webp,true,,,F2p,
+220,Extreme,INT,Treasured Battle Device Android #16,15,6,5,Treasured Battle Device Android 16.webp,true,,,F2p,
 221,Super,TEQ,New Form and Resolve Android #16,11,15,0,New Form and Resolve Android 16.webp,true,,,Rare,true
 222,Super,INT,Newly Acquired Chance Android #16,0,15,11,Newly Acquired Chance Android 16.webp,true,,,Rare,true
 223,Extreme,TEQ,Followers of His Ideals Zarbon & Dodoria,20,6,0,Followers of His Ideals Zarbon & Dodoria.webp,true,,,F2p,
@@ -240,5 +240,15 @@ id,category,type,name,crit,add,esc,image,eza,seza,new,pull,farmable
 239,Super,TEQ,Absolute Loss Yamcha,20,6,0,Absolute Loss Yamcha.webp,,,,F2p,
 240,Super,AGL,Wounded Honor Yamcha,15,11,0,Wounded Honor Yamcha.webp,,,,F2p,
 241,Super,PHY,Lupine Awakening Yamcha & Puar,15,11,0,Lupine Awakening Yamcha & Puar.webp,true,,,Tournament,true
-
-
+242,Super,AGL,A Fight for the Ages Goku,6,20,0,A Fight for the Ages Goku.webp,,,true,Limited,true
+243,Super,TEQ,Courteous Martial Artist Grandpa Gohan,6,20,0,Courteous Martial Artist Grandpa Gohan.webp,,,true,Tournament,true
+244,Super,AGL,Exciting and Heart-Pounding Adventure Goku (Youth),6,20,0,Exciting and Heart-Pounding Adventure Goku (Youth).webp,,,true,Dokkan,true
+245,Super,INT,Ox King's Daughter Chi-Chi (Youth),6,15,5,Ox King's Daughter Chi-Chi (Youth).webp,,,true,Rare,
+246,Super,INT,Stable Combat Power Vegeta (Mini) (DAIMA),0,15,11,Stable Combat Power Vegeta (Mini) (DAIMA).webp,,,true,F2p,true
+247,Super,PHY,True Strength of Adults Android #18,6,20,0,True Strength of Adults Android #18.webp,,,true,Rare,true
+248,Extreme,STR,Final Battle at the Highest Level Cell (Perfect Form),11,15,0,Final Battle at the Highest Level Cell (Perfect Form).webp,,,true,Dokkan,true
+249,Super,STR,Warriors Entrusted with Earth's Fate Super Saiyan Goku/Super Saiyan Gohan (Youth),15,11,0,Warriors Entrusted with Earth's Fate Super Saiyan Goku-Super Saiyan Gohan (Youth).webp,true,,true,Dokkan,true
+250,Extreme,AGL,Ultimate Life Form with Immense Power Cell (1st Form),9,17,0,Ultimate Life Form with Immense Power Cell (1st Form).webp,true,,true,Dokkan,true
+251,Super,PHY,Burning to the Last Super Saiyan Goku (Angel) (Super Kaioken),6,20,0,Burning to the Last Super Saiyan Goku (Angel) (Super Kaioken).webp,true,,true,Rare,
+252,Super,STR,Blazing Clash Paikuhan,15,11,0,Blazing Clash Paikuhan.webp,true,,true,Rare,true
+253,Super,PHY,Unpredictable Powerful Technique Paikuhan,0,20,6,Unpredictable Powerful Technique Paikuhan.webp,,,true,Legendary,true
